@@ -1,0 +1,1348 @@
+<?xml version="1.0" ?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd"><key id="labelV" for="node" attr.name="labelV" attr.type="string"></key><key id="name" for="node" attr.name="name" attr.type="string"></key><key id="text" for="node" attr.name="text" attr.type="string"></key><key id="embedding" for="node" attr.name="embedding" attr.type="string"></key><key id="type" for="node" attr.name="type" attr.type="string"></key><key id="labelE" for="edge" attr.name="labelE" attr.type="string"></key><key id="weight" for="edge" attr.name="weight" attr.type="double"></key><graph id="G" edgedefault="directed"><node id="512"><data key="labelV">entity</data><data key="name">Armes</data><data key="type">Thing</data></node><node id="3"><data key="labelV">entity</data><data key="name">Municipal Powers Act</data><data key="type">Thing</data></node><node id="7"><data key="labelV">entity</data><data key="name">Cities</data><data key="type">Thing</data></node><node id="519"><data key="labelV">entity</data><data key="name">Op</data><data key="type">Thing</data></node><node id="11"><data key="labelV">entity</data><data key="name">Towns Act</data><data key="type">Thing</data></node><node id="523"><data key="labelV">entity</data><data key="name">Actes</data><data key="type">Thing</data></node><node id="268"><data key="labelV">entity</data><data key="name">Rgulation</data><data key="type">Thing</data></node><node id="15"><data key="labelV">entity</data><data key="name">Charter</data><data key="type">Thing</data></node><node id="527"><data key="labelV">entity</data><data key="name">Tentatives</data><data key="type">Thing</data></node><node id="19"><data key="labelV">entity</data><data key="name">Ville</data><data key="type">Thing</data></node><node id="532"><data key="labelV">entity</data><data key="name">Loi</data><data key="type">Thing</data></node><node id="278"><data key="labelV">entity</data><data key="name">When</data><data key="type">Thing</data></node><node id="23"><data key="labelV">entity</data><data key="name">Montr</data><data key="type">Thing</data></node><node id="282"><data key="labelV">entity</data><data key="name">Upon</data><data key="type">Thing</data></node><node id="538"><data key="labelV">entity</data><data key="name">Preuve</data><data key="type">Thing</data></node><node id="27"><data key="labelV">entity</data><data key="name">Qu</data><data key="type">Thing</data></node><node id="31"><data key="labelV">entity</data><data key="name">Regulation</data><data key="type">Thing</data></node><node id="544"><data key="labelV">entity</data><data key="name">Monde Canada</data><data key="type">Thing</data></node><node id="35"><data key="labelV">entity</data><data key="name">Act</data><data key="type">Thing</data></node><node id="549"><data key="labelV">entity</data><data key="name">Internet</data><data key="type">Thing</data></node><node id="39"><data key="labelV">entity</data><data key="name">August</data><data key="type">Thing</data></node><node id="553"><data key="labelV">entity</data><data key="name">Revenu Qu</data><data key="type">Thing</data></node><node id="44"><data key="labelV">entity</data><data key="name">February</data><data key="type">Thing</data></node><node id="557"><data key="labelV">entity</data><data key="name">Revenu Ca</data><data key="type">Thing</data></node><node id="305"><data key="labelV">entity</data><data key="name">Service</data><data key="type">Thing</data></node><node id="50"><data key="labelV">entity</data><data key="name">If</data><data key="type">Thing</data></node><node id="562"><data key="labelV">entity</data><data key="name">Soci</data><data key="type">Thing</data></node><node id="54"><data key="labelV">entity</data><data key="name">Organizations</data><data key="type">Thing</data></node><node id="567"><data key="labelV">entity</data><data key="name">Acc</data><data key="type">Thing</data></node><node id="58"><data key="labelV">entity</data><data key="name">Canadian</data><data key="type">Thing</data></node><node id="572"><data key="labelV">entity</data><data key="name">Personne</data><data key="type">Thing</data></node><node id="62"><data key="labelV">entity</data><data key="name">Royal Canadian 
+Mounted Police</data><data key="type">Thing</data></node><node id="324"><data key="labelV">entity</data><data key="name">Dog</data><data key="type">Thing</data></node><node id="72"><data key="labelV">entity</data><data key="name">Trap</data><data key="type">Thing</data></node><node id="584"><data key="labelV">entity</data><data key="name">Une</data><data key="type">Thing</data></node><node id="doc:13"><data key="labelV">chunk</data><data key="text">* et ** Une personne de 70 ans et plus peut ne plus avoir de photo sur sa carte d’assurance 
+maladie. Cette preuve doit restée recevable pour ces personnes. SCHEDULE 4 
+ 
+ANNEXE 4 
+AFFICHE POUR UN CHIEN POTENTIELLEMENT DANGEREUX 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SCHEDULE 5 
+ 
+ANNEXE 5 
+FORMULAIRE D’AVIS D’EXEMPTION PAR UN MÉDECIN VÉTÉRINAIRE 
+ 
+Le formulaire doit : 
+ 
+• être signé et daté, et indiquer le numéro de permis du médecin vétérinaire; 
+• indiquer le nom et les coordonnées du gardien de l’animal; 
+• décrire l’animal qu’il vise de façon à ce que son gardien ou un inspecteur puisse le 
+reconnaître; 
+• préciser l’obligation pour laquelle le gardien de l’animal doit être exempté, ou 
+temporairement exempté, selon les 3 cas ci-après; 
+• présenter la ou les raisons médicales liées à l’exemption (ex. : s’il s’agit d’un jeune 
+chien, il faut indiquer à quel âge il sera recommandé de le stériliser); 
+• être dûment rempli. À défaut de l’être, l’autorité compétente peut rejeter 
+l’exemption; 
+• être conservé par le gardien de l’animal. □ Stérilisation contre-indiquée pour des raisons médicales 
+□ Micropuçage contre-indiqué pour des raisons médicales 
+□ Vaccination contre-indiquée pour des raisons médicales 
+ 
+Date : _______________________ 
+ 
+Prénom et nom du gardien : ________________________ ____________________ 
+ 
+Adresse du gardien : __________________________________________________ 
+ 
+Numéro de téléphone du gardien : ____________________________________________ 
+ 
+Description de l’animal (race ou croisement, sexe, couleur) : _______________________ 
+___________________________________________________________________ 
+___________________________________________________________________ 
+ 
+Numéro de la micropuce ou du tatouage, le cas échéant : __________________________ 
+ 
+Raison(s) médicale(s) : ____________________________________________________ 
+__________________________________________________________________ 
+__________________________________________________________________ 
+ 
+Période d’exemption : _______________________ 
+ 
+Prénom et nom du médecin vétérinaire : _________________________ 
+ 
+Signature du médecin vétérinaire : ___________________ 
+ 
+Numéro de permis : _______________________ 
+ 
+SCHEDULE 6 
+ 
+ANNEXE 6 
+LISTE DES ASSOCIATIONS POUVANT DÉLIVRER DES PREUVES 
+D’ENREGISTREMENT 
+ 
+ 
+Les associations de races pouvant délivrer une preuve d’enregistrement pour un chien 
+reproducteur sont les suivantes : 
+ 
+• CKC – CCC : Canadian Kennel Club – Club Canin Canadien 
+• AKC : American Kennel Club 
+• UKC : United State Kennel Club 
+• FCC : Fédération Canine du Canada 
+• FCI : Fédération canine internationale 
+• CBCA : Canadian border collie association 
+ 
+Les associations de races pouvant délivrer une preuve d’enregistrement pour un chat 
+reproducteur sont les suivantes : 
+ 
+• CCC : Chats Canada Cats 
+• CCA – AFC : The Canadian cat association – Associati n féline canadienne 
+• FIFE : Fédération internationale féline 
+• LOOF : Livre officiel des origines félines 
+• TICA : The international cat association 
+• WCF : World cat federation 
+• ACFA : American cat fancier association 
+• CFA : Cat fancier association 
+• CFF : Cat fancier federation 
+• GCCF : Governing council of the cat fancy</data><data key="embedding">[F@538c8a1e</data></node><node id="76"><data key="labelV">entity</data><data key="name">Neuter</data><data key="type">Thing</data></node><node id="doc:11"><data key="labelV">chunk</data><data key="text">Every custodian of an animal is responsible for anyoffence under this by-law even if 
+the animal is not under the custodian’s care at the im of the offence, unless the custodian 
+proves that at the time the offence was committed, a third party other than a member of the 
+custodian’s family under the age of 18 was accompanying the animal without the 
+custodian’s knowledge and express or implied consent. CHAPTER V 
+ORDINANCES 
+ 
+66. The executive committee may, by ordinance: 
+ 
+(1) determine any location serving as a shelter for the application of this by-law; 
+ 
+(2) amend the list of permitted species and determine the transitional measures, as the 
+case may be; 
+ 
+(3) at the request of a borough council, determine for specific events or locations 
+which animals not included on the list of permitted species under article 7, except 
+for hybrid and prohibited dogs, may be kept or may ove freely in a public place, 
+as well as determine the applicable custody conditions, if applicable; 
+ 
+(4) amend the list of associations that may issue proof of registration in accordance 
+with paragraph (1) of article 16; 
+ 
+(5) prescribe additional conditions for the issue of a licence; 
+ 
+(6) determine the conditions for the issue of a TNRM permit and the procedures to be 
+followed by a permit holder as part of the implementation of the TNRM program, 
+in collaboration with the boroughs; 
+ 
+(7) amend the list of offences in schedules 1 and 2; 
+ 
+(8) amend the list of accepted proof of identification and residence in schedule 3; 
+ 
+(9) amend the sign warning of the presence of a potentially dangerous dog in 
+schedule 4; 
+ 
+21-012/29 
+(10) provide, for a specific period of time, the necessary measures to prevent or reduce 
+the spread of a contagious disease that may endanger public health, when there are 
+reasonable grounds to suspect such a spread, as well as quarantine stations and 
+vaccination clinics designated for the implementation of such measures; 
+ 
+(11) at the request of a borough council, determine for specific events or locations, at 
+certain times, as the case may be, where dogs may be kept off-leash and under 
+what conditions; 
+ 
+(12) amend the interpretations in article 1 of this by-law; 
+ 
+(13) at the request of a borough council, determine the locations where farm animal 
+raising activities are authorized and the conditions related to the activity, if 
+applicable. CHAPTER VI 
+FINAL AND TRANSITIONAL PROVISIONS 
+ 
+67. This by-law repeals and replaces the By-law concerning domestic animals (18-042) as 
+well as any provision concerning animals included other city by-laws, with the exception 
+of the By-law concerning calèches (17-079). 68. Article 4.1 of the By-law concerning calèches (17-079) is amended by replacing the 
+words “By-law concerning domestic animals (18-042)” with the words “By-law 
+concerning domestic animals (20-012)”. 69. Article 12 of the By-law concerning fees (fiscal 2021) (20-045) is amended by 
+replacing the words “By-law concerning domestic animals (18-042)” with the words 
+“By-law concerning domestic animals (20-012)”. Article 12 of the By-law concerning fees (fiscal 2021) (20-045) is also amended by 
+replacing paragraph (1) of the third paragraph with the following paragraph: 
+ 
+“(1) the issue of an annual licence for a guide andservice dog or a dog in training for 
+that purpose as defined in article 1 of the By-law concerning domestic animals 
+(20-012) and who provides the proof required under th same article and by-law.”. 70. The ordinances adopted in accordance with article 59 of the By-law concerning 
+domestic animals (18-042) or deemed to have been adopte thereunder that have not 
+already expired remain in force and are considered to have been adopted in accordance 
+with this by-law, with the exception of ordinance 2 adopted under the By-law concerning 
+domestic animals (18-042), which is repealed by this by-law. 71. Any licence issued under the By-law concerning domestic animals (18-042) remains 
+valid if it is not already expired. 21-012/30 
+The tag given with any licence issued under the By-law concerning domestic animals 
+(18-042) does not have to be replaced when the licence validity period expires. It remains 
+valid as long as the licence is renewed in accordance with this by-law. Any permit issued under the By-law concerning domestic animals (18-042) that is not 
+already expired may be revoked under the provisions of this by-law. 72. Any decision or order by the authority having jurisdiction or any obligation regarding a 
+dog under the By-law concerning domestic animals (18-042) or under another by-law 
+concerning dogs remains valid and enforceable, unless it is cancelled, revised or amended 
+by the authority having jurisdiction in accordance with this by-law or the Regulation 
+respecting the application of the Act to promote th protection of persons by establishing a 
+framework with regard to dogs (CQLR, chapter P-38.002, r. 1). Any dog declared potentially dangerous under the By-law concerning domestic animals 
+(18-042) or under the By-law concerning animal contr l (16-060) automatically becomes a 
+potentially dangerous dog under the provisions of the Regulation respecting the application 
+of the Act to promote the protection of persons by establishing a framework with regard to 
+dogs (CQLR, chapter P-38.002, r. 1) and under this by-law. The dog is immediately subject 
+to the obligations related to such status referred to in the aforesaid regulation and by-law. Any investigation launched by the authority having jurisdiction under the By-law 
+concerning domestic animals (18-042) is conducted according to the provisions of the 
+Regulation respecting the application of the Act to pr mote the protection of persons by 
+establishing a framework with regard to dogs (CQLR, chapter P-38.002, r. 1) and this 
+by-law. 73. Every contraindication related to age or health reasons to exempt an animal from the 
+microchipping, sterilization or vaccination requirem nt, already submitted to the authority 
+having jurisdiction at the time a licence application or renewal is filed, and when the 
+contraindication is still applicable, remains valid for the purposes of this by-law without 
+the requirement to be entered in the form in schedule 5.</data><data key="embedding">[F@4b5e385d</data></node><node id="588"><data key="labelV">entity</data><data key="name">Cette</data><data key="type">Thing</data></node><node id="doc:12"><data key="labelV">chunk</data><data key="text">---------------------------------------- 
+ 
+ 
+ 
+SCHEDULE 1 
+TABLE OF OFFENCES RELATED TO AN ANIMAL 
+ 
+SCHEDULE 2 
+TABLE OF OFFENCES - POTENTIALLY DANGEROUS DOG 
+ 
+SCHEDULE 3 
+LIST OF ACCEPTED FORMS OF PROOF 
+21-012/31 
+ 
+SCHEDULE 4 
+SIGN - POTENTIALLY DANGEROUS DOG 
+ 
+SCHEDULE 5 
+NOTICE OF EXEMPTION FORM BY A VETERINARY SURGEON 
+ 
+SCHEDULE 6 
+LIST OF ASSOCIATIONS THAT MAY ISSUE PROOF OF REGISTRATION 
+ 
+ 
+ 
+___________________________ 
+ 
+ 
+ 
+The public notice relating to this by-law was posted at city hall (Lucien-Saulnier building) 
+and published in The Gazette on March 1, 2021. 1 
+SCHEDULE 1 
+ 
+ANNEXE 1 
+TABLEAU DES INFRACTIONS EN LIEN AVEC UN ANIMAL 
+ 
+Articles du Code criminel (L.R.C. 1985, 
+c. C-46) 
+Description sommaire de l’infraction 
+160 (1) Avoir un contact dans un but sexuel avec un 
+animal 
+160 (2) Usage de la force afin de contraindre 
+quelqu’un à avoir un contact dans un but 
+sexuel avec un animal 
+160 (3) Avoir ou inciter quelqu’un à avoir un contact 
+dans un but sexuel avec un animal en 
+présence d’une personne âgée de moins de 16 
+ans 
+160 (5) Violation de l’ordonnance rendue par le 
+tribunal interdisant d’être propriétaire, 
+d’avoir la garde ou le contrôle d’un animal ou 
+d’habiter un lieu où se trouve un animal 
+444 (1) a) Tuer, blesser ou empoisonner des bestiaux 
+444 (1) b) Placer du poison de manière à ce qu’il soit 
+consommé par des bestiaux 
+445 (1) a) Tuer, blesser ou empoisonner des 
+chiens, oiseaux ou animaux 
+445 (1) b) Placer du poison de manière à ce qu’il soit 
+consommé par des chiens, oiseaux ou 
+animaux 
+445.01 (1) Tuer, blesser ou empoisonner un chien 
+d’assistance ou un chien d’assistance 
+policière 
+445.1 (1) a) Causer une douleur ou une souffrance à un
+animal ou un oiseau sans nécessité 
+445.1 (1) b) Faire la promotion ou organiser des 
+combats d’animaux ou le dressage et le 
+transport d’animaux à cette fin 
+445.1 (1) c) Administrer une drogue ou une substance 
+empoisonnée ou nocive à un animal ou un 
+oiseau 
+445.1 (1) d) Organiser ou faciliter la tenue d’un 
+événement entraînant une cruauté envers 
+des oiseaux 
+445.1 (1) e) En étant le propriétaire ou l’occupant ou la 
+personne responsable du local utilisé pour 
+un événement décrit au paragraphe d) de 
+l’article 445.1 (1) 
+446 (1) a) Causer une blessure ou une lésion à des 
+ 
+2 
+animaux ou oiseaux alors qu’ils sont 
+conduits ou transportés 
+446 (1) b) Abandonner en détresse ou volontairement 
+négliger de fournir des aliments, eau, abri 
+et soins à un animal ou un oiseau 
+domestique ou à un animal ou un oiseau en 
+captivité 
+447 (1) Construire, faire, entretenir ou garder une 
+arène pour les combats d’animaux ou 
+permettre une telle construction 
+447.1 (2) Violation de l’ordonnance rendue par le 
+tribunal interdisant d’être propriétaire, 
+d’avoir la garde ou le contrôle d’un animal 
+ou d’habiter un lieu où se trouve un animal 
+ 
+ 
+SCHEDLE 2 
+ 
+ANNEXE 2 
+TABLEAU DES INFRACTIONS – CHIEN POTENTIELLEMENT DANGEREUX 
+ 
+Articles du Code criminel (L.R.C. 1985, c. C-46) 
+PARTIE II : Infractions contre l’ordre public 
+76, 77 et 78.1; 80 et 81 
+PARTIE II.1 : Terrorisme 
+83.01 à 83.231 inclusivement 
+PARTIE III : Armes à feu et autres armes 
+85 à 87 inclusivement; 88; 98.1 
+PARTIE V : Infractions d’ordre sexuel, actes contraires aux bonnes mœurs, inconduite 
+151 à 173 inclusivement; 182 
+PARTIE VIII : Infractions contre la personne et la réputation 
+215; 218; 220 et 221; 235; 236; 237; 238; 239; 240; 1; 242; 243; 244; 244.1; 244.2; 245; 
+246; 247; 248; 264; 264.1; 267; 268; 269; 269.1; 270 à 270.1 inclusivement; 271 à 273 
+inclusivement; 273.3; 279; 279.01 à 279.03 inclusivement; 279.1; 280 à 283 inclusivement; 
+318; 319 
+PARTIE IX : Infractions contre les droits de propriété 
+343 et 344; 346 
+PARTIE X : Opérations frauduleuses en matière de contrats et de commerce 
+423 et 423.1; 424 et 424.1 
+PARTIE XI : Actes volontaires et prohibés concernant certains biens 
+431 et 431.1; 433 à 436.1 inclusivement 
+PARTIE XIII : Tentatives – complots – complices 
+465; 467.11 à 467.13 inclusivement 
+Articles de la Loi réglementant certaines drogues et autres substances (L.C. 1996, c. 19) 
+PARTIE I : Infractions et peines – Infractions particulières 
+5; 6; et 7 
+ 
+ 
+SCHEDULE 3 
+ 
+ANNEXE 3 
+LISTE DES PREUVES ACCEPTÉES 
+ 
+Preuve d’identité : 
+1) un permis de conduire du Québec; 
+2) une carte d’assurance maladie du Québec*; 
+3) un passeport canadien ou étranger; 
+4) une carte de citoyenneté canadienne; 
+5) une carte de résident permanent (canadienne); 
+6) une carte d’attestation et d’identité délivrée par Médecins du Monde Canada. Preuve de résidence : 
+1) un relevé de compte de services publics (électricité, téléphone, compagnie de 
+distribution de gaz naturel, câblodistribution ou services Internet) récent de trois 
+mois ou moins; 
+2) un relevé de compte d’une institution d’enseignement r connue récent de trois mois 
+ou moins; 
+3) un relevé de compte d’une institution financière ou de crédit récent de trois mois ou 
+moins; 
+4) un relevé de compte de taxes de l’année en cours; 
+5) un avis de cotisation de Revenu Québec ou de Revenu Ca ada; 
+6) un relevé d’assurance emploi; 
+7) un avis de renouvellement de la carte de la Régie de l’assurance maladie du Québec 
+(RAMQ); 
+8) un avis de renouvellement du permis de conduire de la Société de l’assurance 
+automobile du Québec (SAAQ); 
+9) une carte Accès Montréal de l’année en cours; 
+10) un certificat ou un relevé d’assurance habitation daté ’un an ou moins. Personne morale : 
+ 
+- Preuve d’identité du représentant désigné : 
+1) un permis de conduire du Québec; 
+2) une carte d’assurance maladie du Québec**; 
+3) un passeport canadien ou étranger; 
+4) une carte de citoyenneté canadienne; 
+5) une carte de résident permanent (canadienne); 
+6) une carte d’attestation et d’identité délivrée par Médecins du Monde Canada. - Preuve d’existence de la personne morale et du statt du représentant : 
+1) un relevé de compte de taxes de l’année en cours; 
+2) les lettres patentes de la personne morale ou de l’organisme à but non lucratif; 
+3) un certificat d’occupation de l’établissement daté d’un an ou moins.</data><data key="embedding">[F@4ebdb963</data></node><node id="doc:10"><data key="labelV">chunk</data><data key="text">If the dog’s place of custody will be 
+located on city territory, the new custodian must contact the authority having jurisdiction 
+upon taking possession of the dog. The same applies to a dog subject to custody conditi s imposed by the authority having 
+jurisdiction in accordance with article 42 or subject to custody conditions imposed by a 
+local municipality in accordance with paragraph (1) of section 11 of the 
+Regulation respecting the application of the Act to pr mote the protection of persons by 
+establishing a framework with regard to dogs (CQLR, chapter P-38.002, r. 1) or with 
+another by-law concerning dogs. A shelter located on city territory may put a dog declared potentially dangerous up for 
+adoption by informing the new custodian of the potentially dangerous dog status and the 
+conditions to be met under article 44. If the dog’s place of custody will be located on city 
+territory, the new custodian has 30 days to obtain a special licence to keep a potentially 
+dangerous dog in accordance with the provisions of article 45. To obtain the special 
+licence, the new custodian must contact the authority having jurisdiction immediately upon 
+taking possession of the dog. Until the special licence is issued, the new custodian must 
+meet all of the requirements and conditions set out in article 44, except for paragraphs (4), 
+(5), (9) and (10). Once the special licence is issued, the custodian must comply with all of 
+the requirements of article 44. 21-012/26 
+ 
+58. No shelter located on city territory may put an unsterilized dog or cat without a 
+microchip or an unsterilized rabbit up for adoption, except in the case of an animal that is 
+six months old or less or following a written opinio from a veterinary surgeon indicating 
+that the sterilizing or microchipping must be postpned to a recommended age or written 
+opinion from a veterinary surgeon indicating that the procedure is contraindicated for the 
+animal, stipulating the medical reasons. For any contraindication related to age or medical 
+reasons, the veterinary surgeon must use the form in schedule 5. The shelter must provide the new custodian with proof of sterilization and microchipping, 
+as the case may be, or the duly completed form in schedule 5. 59. No shelter located on city territory may put up for adoption a dog subject to a 
+euthanasia order issued under a repealed city by-law concerning dogs, the Regulation 
+respecting the application of the Act to promote th protection of persons by establishing a 
+framework with regard to dogs (CQLR, chapter P-38.002, r. 1) or a by-law of another local 
+municipality concerning dogs. SECTION X 
+DISEASES 
+ 
+60. The authority having jurisdiction may order the custodian to isolate any animal 
+suspected of suffering from a disease contagious to humans (zoonosis), as certified by a 
+veterinary surgeon until the animal is fully recovered. 61. A custodian who knows or suspects that their animal is suffering from a disease 
+contagious to humans (zoonosis) must take all necessary steps immediately to seek 
+treatment for the animal or have it euthanized. CHAPTER IV 
+PENAL PROVISIONS 
+ 
+62. Subject to the penal provisions under the Regulation respecting the application of the 
+Act to promote the protection of persons by establishing a framework with regard to dogs 
+(CQLR, chapter P-38.002, r. 1), any person who contravenes this by-law or an ordinance 
+adopted under article 66 is guilty of an offence and is liable: 
+ 
+(1) in the case of a natural person: 
+ 
+(a) for a first offence, to a fine of $300 to $600; 
+ 
+(b) for a second offence, to a fine of $600 to $1,200; 
+ 
+(c) for every subsequent offence, to a fine of $1,200 to $2,000; 
+21-012/27 
+ 
+(2) in the case of a legal person: 
+ 
+(a) for a first offence, to a fine of $500 to $1,000; 
+ 
+(b) for a second offence, to a fine of $1,000 to $2,500; 
+ 
+(c) for every subsequent offence, to a fine of $2,500 to $4,000. 63. Despite article 62, but subject to the penal provisi ns under the Regulation respecting 
+the application of the Act to promote the protection of persons by establishing a framework 
+with regard to dogs (CQLR, chapter P-38.002, r. 1), any person who contravenes articles 4, 
+28 or 29, article 37 by a nuisance referred to in paragraph (5) of article 36 or article 45, is 
+guilty of an offence and is liable: 
+ 
+(1) in the case of a natural person: 
+ 
+(a) for a first offence, to a fine of $500 to $750; 
+ 
+(b) for a second offence, to a fine of $750 to $1,500; 
+ 
+(c) for every subsequent offence, to a fine of $1,500 to $2,000; 
+ 
+(2) in the case of a legal person: 
+ 
+(a) for a first offence, to a fine of $1,000 to $1,500; 
+ 
+(b) for a second offence, to a fine of $1,500 to $3,000; 
+ 
+(c) for every subsequent offence, to a fine of $3,000 to $4,000. 64. Despite article 62, but subject to the penal provisi ns under the Regulation respecting 
+the application of the Act to promote the protection of persons by establishing a framework 
+with regard to dogs (CQLR, chapter P-38.002, r. 1), any person who contravenes 
+articles 35 or 47, article 37 by a nuisance referd to in paragraph (6) of article 36, 
+articles 38, 39, 40, 44, 47 or 48, is guilty of an offence and is liable: 
+ 
+(1) in the case of a natural person: 
+ 
+(a) for a first offence, to a fine of $1,000 to $1,250; 
+ 
+(b) for a second offence, to a fine of $1,250 to $1,500; 
+ 
+(c) for every subsequent offence, to a fine of $1,500 to $2,000; 
+ 
+21-012/28 
+ 
+(2) in the case of a legal person: 
+ 
+(a) for a first offence, to a fine of $2,000 to $2,500; 
+ 
+(b) for a second offence, to a fine of $2,500 to $3,000; 
+ 
+(c) for every subsequent offence, to a fine of $3,000 to $4,000. 65.</data><data key="embedding">[F@46ae85c7</data></node><node id="80"><data key="labelV">entity</data><data key="name">Release</data><data key="type">Thing</data></node><node id="592"><data key="labelV">entity</data><data key="name">Le</data><data key="type">Thing</data></node><node id="84"><data key="labelV">entity</data><data key="name">Without</data><data key="type">Thing</data></node><node id="596"><data key="labelV">entity</data><data key="name">St</data><data key="type">Thing</data></node><node id="600"><data key="labelV">entity</data><data key="name">Micropu</data><data key="type">Thing</data></node><node id="347"><data key="labelV">entity</data><data key="name">Until</data><data key="type">Thing</data></node><node id="604"><data key="labelV">entity</data><data key="name">Vaccination</data><data key="type">Thing</data></node><node id="95"><data key="labelV">entity</data><data key="name">Minist</data><data key="type">Thing</data></node><node id="351"><data key="labelV">entity</data><data key="name">Once</data><data key="type">Thing</data></node><node id="608"><data key="labelV">entity</data><data key="name">Date</data><data key="type">Thing</data></node><node id="99"><data key="labelV">entity</data><data key="name">Agriculture</data><data key="type">Thing</data></node><node id="612"><data key="labelV">entity</data><data key="name">Pr</data><data key="type">Thing</data></node><node id="103"><data key="labelV">entity</data><data key="name">Alimentation</data><data key="type">Thing</data></node><node id="616"><data key="labelV">entity</data><data key="name">Adresse</data><data key="type">Thing</data></node><node id="107"><data key="labelV">entity</data><data key="name">This</data><data key="type">Thing</data></node><node id="620"><data key="labelV">entity</data><data key="name">Num</data><data key="type">Thing</data></node><node id="113"><data key="labelV">entity</data><data key="name">Despite</data><data key="type">Thing</data></node><node id="626"><data key="labelV">entity</data><data key="name">Raison</data><data key="type">Thing</data></node><node id="373"><data key="labelV">entity</data><data key="name">By</data><data key="type">Thing</data></node><node id="119"><data key="labelV">entity</data><data key="name">No</data><data key="type">Thing</data></node><node id="631"><data key="labelV">entity</data><data key="name">Signature</data><data key="type">Thing</data></node><node id="378"><data key="labelV">entity</data><data key="name">Article</data><data key="type">Thing</data></node><node id="123"><data key="labelV">entity</data><data key="name">Subdivisions</data><data key="type">Thing</data></node><node id="636"><data key="labelV">entity</data><data key="name">Les</data><data key="type">Thing</data></node><node id="127"><data key="labelV">entity</data><data key="name">Division</data><data key="type">Thing</data></node><node id="640"><data key="labelV">entity</data><data key="name">Canadian Kennel Club</data><data key="type">Thing</data></node><node id="644"><data key="labelV">entity</data><data key="name">Club Canin Canadien</data><data key="type">Thing</data></node><node id="134"><data key="labelV">entity</data><data key="name">All</data><data key="type">Thing</data></node><node id="648"><data key="labelV">entity</data><data key="name">American Kennel Club</data><data key="type">Thing</data></node><node id="140"><data key="labelV">entity</data><data key="name">Erinaceus</data><data key="type">Thing</data></node><node id="652"><data key="labelV">entity</data><data key="name">United State Kennel Club</data><data key="type">Thing</data></node><node id="397"><data key="labelV">entity</data><data key="name">It</data><data key="type">Thing</data></node><node id="144"><data key="labelV">entity</data><data key="name">Tryonychidae</data><data key="type">Thing</data></node><node id="656"><data key="labelV">entity</data><data key="name">Canine</data><data key="type">Thing</data></node><node id="148"><data key="labelV">entity</data><data key="name">American</data><data key="type">Thing</data></node><node id="663"><data key="labelV">entity</data><data key="name">Chats Canada Cats</data><data key="type">Thing</data></node><node id="667"><data key="labelV">entity</data><data key="name">The Canadian</data><data key="type">Thing</data></node><node id="158"><data key="labelV">entity</data><data key="name">Canada</data><data key="type">Thing</data></node><node id="671"><data key="labelV">entity</data><data key="name">Associati</data><data key="type">Thing</data></node><node id="162"><data key="labelV">entity</data><data key="name">Accredited Zoos</data><data key="type">Thing</data></node><node id="675"><data key="labelV">entity</data><data key="name">Livre</data><data key="type">Thing</data></node><node id="420"><data key="labelV">entity</data><data key="name">Lucien</data><data key="type">Thing</data></node><node id="166"><data key="labelV">entity</data><data key="name">Aquariums</data><data key="type">Thing</data></node><node id="679"><data key="labelV">entity</data><data key="name">World</data><data key="type">Thing</data></node><node id="424"><data key="labelV">entity</data><data key="name">Saulnier</data><data key="type">Thing</data></node><node id="171"><data key="labelV">entity</data><data key="name">Biod</data><data key="type">Thing</data></node><node id="428"><data key="labelV">entity</data><data key="name">The Gazette</data><data key="type">Thing</data></node><node id="684"><data key="labelV">entity</data><data key="name">Cat</data><data key="type">Thing</data></node><node id="176"><data key="labelV">entity</data><data key="name">After</data><data key="type">Thing</data></node><node id="432"><data key="labelV">entity</data><data key="name">March</data><data key="type">Thing</data></node><node id="689"><data key="labelV">entity</data><data key="name">Governing</data><data key="type">Thing</data></node><node id="180"><data key="labelV">entity</data><data key="name">Every</data><data key="type">Thing</data></node><node id="436"><data key="labelV">entity</data><data key="name">Articles</data><data key="type">Thing</data></node><node id="184"><data key="labelV">entity</data><data key="name">Any</data><data key="type">Thing</data></node><node id="440"><data key="labelV">entity</data><data key="name">Code</data><data key="type">Thing</data></node><node id="188"><data key="labelV">entity</data><data key="name">Holders</data><data key="type">Thing</data></node><node id="444"><data key="labelV">entity</data><data key="name">Description</data><data key="type">Thing</data></node><node id="192"><data key="labelV">entity</data><data key="name">Subject</data><data key="type">Thing</data></node><node id="doc:7"><data key="labelV">chunk</data><data key="text">The custodian of an at-risk dog has 10 days to submit observations and file documents, 
+if required, from the date the authority having jurisdiction informs the custodian of the 
+intention to declare the dog potentially dangerous r issue an order pertaining to the dog 
+under this by-law or the Regulation respecting the application of the Act to promote the 
+protection of persons by establishing a framework with regard to dogs (CQLR, 
+chapter P-38.002, r. 1). The authority having jurisdiction may extend the timeframe if the 
+custodian demonstrates that, although diligent, they ar unable to, complete the file and 
+submit comments to the authority having jurisdiction within the prescribed timeframe. The 
+authority having jurisdiction informs the custodian n writing. 42. If, after an investigation, the authority having jurisdiction believes that a potentially 
+dangerous dog declaration is not warranted under the circumstances, the authority having 
+jurisdiction may nonetheless require the custodian to comply with one or more of the 
+measures under paragraphs (1) and (3) of section 11 of the Regulation respecting the 
+application of the Act to promote the protection of persons by establishing a framework 
+with regard to dogs (CQLR, chapter P-38.002, r. 1) and under this by-law. 21-012/19 
+The custodian must, within 30 days following notification of the decision of the authority 
+having jurisdiction, in which such requirement is is ued, provide written proof stating that 
+the dog received a rabies vaccination, indicating the vaccination and renewal date, as well 
+as any such written proof upon annual renewal of the licence or at the city’s request, or a 
+written opinion from a veterinary surgeon indicating that the vaccination must be postponed 
+to a recommended age or a written opinion from a veterinary surgeon indicating that 
+vaccination is contraindicated for the animal, stipulating the medical reasons. For any 
+contraindication related to age or medical reasons, the veterinary surgeon must use the form 
+in schedule 5. 43. When the authority having jurisdiction has imposed one or more of the custody 
+measures following an investigation, without declaring a dog potentially dangerous, under 
+the Regulation respecting the application of the Act to promote the protection of persons by 
+establishing a framework with regard to dogs (CQLR, chapter P-38.002, r. 1) or a now 
+repealed city by-law concerning dogs, or when another local municipality has issued 
+similar measures under the aforementioned provincial regulation or another by-law 
+concerning dogs, the authority having jurisdiction, when at least five years have elapsed 
+since the decision, at the custodian’s request and provided that the place of custody is 
+located on city territory, may re-evaluate the need to maintain the custody conditions. For that purpose, the authority having jurisdiction may require the custodian to have the 
+dog undergo an examination by a veterinary surgeon that the authority having jurisdiction 
+designates to evaluate the dog’s condition and dangerousness. The examination is at the custodian’s expense according to the amount set out in the 
+by-law concerning fees in force. SUBSECTION 2 
+POTENTIALLY DANGEROUS DOGS 
+ 
+44. When the authority having jurisdiction declares an at-risk dog potentially dangerous for 
+public health or safety, the custodian must comply with the custody conditions set out 
+below, upon receiving notice of the decision that declares the dog potentially dangerous. A 
+custodian who fails to comply is guilty of an offence. When the dog is outside of the custodian’s dwelling u it or, if the custodian is not a natural 
+person, when the animal is outside of a building located on an occupancy unit that is the 
+place of custody, including a front, back or side yard, as well as a common area, the dog 
+must: 
+ 
+(1) be muzzled at all times with a basket muzzle; 
+ 
+(2) be kept on a leash no longer than 1.25 metres, except in dog exercise areas or in a 
+fenced front, back or side yard, in compliance with the restraint conditions set out 
+in paragraph (6) of the third paragraph; 
+ 
+ 
+21-012/20 
+(3) be under the supervision of a person 18 years of age or older who can control the 
+dog; 
+ 
+(4) wear the tag issued by the city when the special custodian licence was obtained. In addition, the dog’s custodian must: 
+ 
+(1) post a sign warning people that a potentially dangerous dog is being kept in the 
+occupancy unit. The sign, shown in schedule 4, is supplied by the authority having 
+jurisdiction upon payment of the amount set out in the by-law concerning fees in 
+force, and must be kept in good condition, without any alteration. The sign must 
+be placed and kept outside at the main access to the occupancy unit from the 
+public road. When an occupancy unit serving as the dog’s place of custody has no 
+direct access to the public road, the sign must be placed and kept at the main 
+access of the occupancy unit; 
+ 
+(2) when the dog is not on a leash, ensure that the animal is kept in a fenced area to 
+keep it within the confines of the space. The fence’s mesh must be tight enough to 
+prevent the entry of anyone’s hand or foot; 
+ 
+(3) keep the dog at a distance of more than two metres from children under 16 years 
+of age, unless they are the custodian’s children; 
+ 
+(4) ensure that the dog is under the constant supervision of a person 18 years of age or 
+over when it is kept around children 10 years of age or younger; 
+ 
+(5) inform the authority having jurisdiction in writing at least two days prior to 
+getting rid of the dog in accordance with article 35;
+ 
+(6) inform the authority having jurisdiction in writing at least two days prior to 
+changing the dog’s place of custody. 45. A dog’s custodian must obtain a special licence to keep a potentially dangerous dog 
+within 30 days following notification of the decision of the authority having jurisdiction.</data><data key="embedding">[F@71c52b76</data></node><node id="448"><data key="labelV">entity</data><data key="name">Avoir</data><data key="type">Thing</data></node><node id="doc:6"><data key="labelV">chunk</data><data key="text">The following situations constitute a nuisance and re prohibited: 
+ 
+(1) a cat or a dog not wearing the mandatory tag requird under this by-law, with the 
+exception of a community cat or a cat with a microchip containing information 
+that makes it possible to verify the licence number; 
+ 
+(2) an animal causing damage to the property of others; 
+ 
+(3) an owner, a tenant or an occupant of an occupancy uit keeping animals that emit 
+odours likely to inconvenience the neighbourhood or allowing such animals to 
+damage the property; 
+ 
+(4) a dog barking, whining or howling, or a cat meowing i ways that disturb a 
+person’s peace and tranquility; 
+ 
+(5) an animal biting or attacking or attempting to bite a person or another domestic 
+animal; 
+ 
+(6) a dog killing another domestic animal, or biting or attacking a person causing 
+death or serious injury within the meaning of the Rgulation respecting the 
+application of the Act to promote the protection of persons by establishing a 
+framework with regard to dogs (CQLR, chapter P-38.002, r. 1); 
+ 
+(7) a stray animal; 
+ 
+(8) a custodian of a dog failing to take all appropriate s eps to clean any public or 
+private place soiled with the dog’s faeces and disposing of it in an approved 
+container approved for trash, except persons accompanied by a guide or service 
+dog; 
+ 
+(9) a dog or a cat rummaging through household waste, moving it, tearing the bags or 
+knocking over the containers; 
+ 
+(10) feeding wild animals, such as coyotes, seagulls, skunks, pigeons, crows, squirrels, 
+racoons, ducks, fish or stray animals on city territo y. Despite the foregoing, the 
+owner, tenant or occupant of an occupancy unit may feed birds using a squirrel or 
+wild animal-proof bird feeder. A person with a TNRM permit, under the TNRM 
+program, may feed community cats as long as it doesn t cause a nuisance; 
+ 
+(11) keeping an animal that does not belong to a species permitted under article 7; 
+21-012/17 
+ 
+(12) using any trapping device to capture an animal outside of a building, with the 
+exception of live-capture traps used by TNRM permit holders for community cats, 
+or in accordance with the Act respecting the conservation and development of 
+wildlife (CQLR, chapter C-61.1) and the regulations thereunder; 
+ 
+(13) letting a dog drink or bathe in a fountain or basin located in a public area; except 
+in dog exercise areas; 
+ 
+(14) letting a dog into a fenced city playground; 
+ 
+(15) letting a dog onto city land where a sign indicates that dogs are prohibited; 
+ 
+(16) moving, altering or breaking objects or tools set up under the TNRM program. 37. The guardian of an animal whose act constitutes a nuisa ce is guilty of an offence 
+under this by-law. SECTION VII 
+SPECIAL PUBLIC HEALTH AND SAFETY PROVISIONS FOR DOGS 
+ 
+SUBSECTION 1 
+AT-RISK DOGS 
+ 
+38. A dog that has bitten or attacked or has attempted to bite a person or a domestic animal, 
+and whose place of custody is located on city territory, or when the place of custody is 
+unknown but the event occurred on city territory, is deemed to be an at-risk dog on the 
+entire city territory under this by-law and the Regulation respecting the application of the 
+Act to promote the protection of persons by establishing a framework with regard to dogs 
+(CQLR, chapter P-38.002, r. 1). In these cases, the custodian of the dog must: 
+ 
+(1) notify the authority having jurisdiction within three days after the dog has bitten, 
+has attacked or has attempted to bite and provide the location where the dog is 
+being kept; 
+ 
+(2) muzzle the animal at all times using a basket muzzle, when it is outside of the 
+custodian’s dwelling unit or, if the custodian is not a natural person, when the 
+animal is outside of a building located on an occupancy unit, including a front, 
+back or side yard, as well as in a common area, until fur her notice from the 
+authority having jurisdiction; 
+ 
+(3) when the dog is not on a leash, ensure that the animal is kept in a fenced area to 
+keep it within the confines of the space. The fence’s mesh must be tight enough to 
+prevent the entry of anyone’s hand or foot; 
+ 
+21-012/18 
+ 
+(4) ensure that the dog remains in the same place of custody until the authority having 
+jurisdiction renders a decision. If the custodian wishes to get rid of the dog, the 
+custodian may do so in accordance with the applicable provisions of article 35 and 
+must notify the authority having jurisdiction two days prior to the transfer of the 
+dog and provide proof within three days thereafter. 39. When there are reasonable grounds to believe that a dog poses a risk to public health or 
+safety, the authority having jurisdiction may launch an investigation to determine whether 
+the dog is dangerous and informs and sends notice to the custodian of the investigation. Upon such notification, the dog becomes an at-risk dog under this by-law and the 
+Regulation respecting the application of the Act to pr mote the protection of persons by 
+establishing a framework with regard to dogs (CQLR, chapter P-38.002, r. 1). The dog’s 
+custodian must comply immediately with paragraphs (2), (3) and (4) of article 38. 40. The authority having jurisdiction may order that the at-risk dog be kept temporarily in 
+an animal services centre until the authority having jurisdiction renders a final decision on 
+the animal’s dangerousness, if the circumstances so warrant to ensure public health or 
+safety. The authority having jurisdiction notifies the custodian of the decision and, if 
+applicable, the prescribed timeframe and location for surrendering the animal. A custodian 
+who fails to comply with the order issued by the authority having jurisdiction is guilty of 
+an offence. 41.</data><data key="embedding">[F@4b6379c3</data></node><node id="doc:9"><data key="labelV">chunk</data><data key="text">The animal’s custodian must comply with the order issued by the 
+authority having jurisdiction. A custodian who fails to comply with the order is guilty of an 
+offence. The examination is at the custodian’s expense according to the amount set out in the 
+by-law concerning fees in force. The provisions of articles 38 to 41 apply to the decision-making process under the first 
+paragraph, with the necessary modifications. 51. A custodian who acquires a dog declared potentially dangerous from a shelter located 
+on city territory, and for which the place of custody will be outside of city territory, must 
+comply with all of the requirements and conditions set out in article 44, except for 
+paragraphs (4), (5), (9) and (10), for as long as the dog is on city territory. In the event 
+where the dog and its custodian remain on city territory for more than 30 consecutive days, 
+the custodian must inform the authority having jurisdiction as soon as possible. The 
+custodian then must obtain a special custodian licece immediately in accordance with the 
+provisions of article 45 and comply with all of the requirements under article 44. SECTION VIII 
+DOG EXERCISE AREAS 
+ 
+52. Dog exercise areas are reserved for dogs accompanied by a custodian. In a dog exercise area, the custodian must supervise the dog at all times and be able to act 
+quickly when necessary. 53. No custodian in an dog exercise area may: 
+ 
+(1) bring in more than two dogs; 
+ 
+(2) feed a dog; 
+ 
+(3) use a ball, a stick or any other object to make their dog exercise when another 
+custodian’s dog is also in the exercise area; 
+ 
+(4) bring in a dog with symptoms of a disease, a female dog in heat or a dog that 
+inconveniences the other dogs in the dog exercise area 
+ 
+ 
+21-012/24 
+SECTION IX 
+SHELTERS 
+ 
+SUBSECTION 1 
+ANIMAL SERVICE CENTRES AND SEIZURES 
+ 
+54. Subject to the powers otherwise set out in Division V of the Regulation respecting the 
+application of the Act to promote the protection of persons by establishing a framework 
+with regard to dogs (CQLR, chapter P-38.002, r. 1), the authority having jurisdiction may 
+capture or have captured in a public place or, with a judge’s authorization, inside of an 
+occupancy unit, and then have kept in an animal services centre, any stray animal, 
+abandoned animal, nuisance-causing animal, species of animal not permitted under 
+article 7, an animal without a valid licence as required under this by-law or animals kept in 
+excess of the number of animals allowed in the same occupancy unit under this by-law. 55. An animal services centre may put up for adoption for profit or euthanize a stray or an 
+abandoned animal, or any other animal seized under article 54 when at least three days 
+have elapsed following a notice issued to the last known custodian after the animal is 
+placed in a shelter. When the identity and whereabouts of the custodian of a stray or an abandoned animal, or 
+any other animal seized under article 54 are unknown r untraceable, the animal services 
+centre may put the animal up for adoption for profit r euthanize it when at least three days 
+have elapsed following the animal’s placement in a shelter. Despite the first and second paragraphs, a dying, seriously injured or ill, or highly 
+contagious animal may be euthanized immediately after its placement in a shelter, based on 
+the opinion of a veterinary surgeon. Despite the second paragraph, a stray cat that is not wearing a tag or microchip may be put 
+up for adoption within 24 hours following its placem nt in a shelter. Despite the first and second paragraph, a prohibited dog may not be put up for adoption, 
+and the animal services centre must euthanize the animal. 56. In the case of any animal seized or captured under article 54, with the exception of a 
+prohibited dog or an animal that does not belong to a species permitted under article 7, 
+unless the animal services centre has not already released the animal in accordance with 
+article 55, the custodian may reclaim the animal by meeting the following conditions: 
+ 
+(1) providing proof of custody; 
+ 
+(2) showing the licence required under this by-law; 
+ 
+(3) paying the animal services centre the daily accommodati n fees as well as any 
+costs for the treatment, sterilization, vaccination or microchipping, as the case 
+may be. 21-012/25 
+ 
+Despite the first paragraph, an at-risk dog, a dog subject to an order to comply with a 
+custody measure issued by the authority having jurisdiction or by another local 
+municipality, or a potentially dangerous dog that is seized or captured under article 54 will 
+be returned to the custodian only if the authority having jurisdiction believes that returning 
+the animal does not jeopardize public health or safety, and, in the case of a potentially 
+dangerous dog, if the authority having jurisdiction is not in the process of determining 
+whether to exercise the right to revoke the special licence issued under article 45 in 
+accordance with article 47. Despite paragraphs (2) and (3) of the first paragraph, in the case of a regular cat or dog 
+whose custodian does not hold the required animal licence, and the animal services centre 
+has not had the time to sterilize or microchip the animal when the custodian comes to 
+reclaim it, the animal services centre may return the animal to its custodian to facilitate the 
+reunification. In this case, the animal services centre informs the authority having 
+jurisdiction that the animal was returned to its custodian and provides the custodian’s 
+contact information. SUBSECTION 2 
+ALL SHELTERS 
+ 
+57. An at-risk dog may be put up for adoption by a shelter located on city territory by 
+informing the new custodian of the at-risk dog’s status and the conditions to be met under 
+article 38 until a decision is rendered about the dog.</data><data key="embedding">[F@6836b76d</data></node><node id="doc:8"><data key="labelV">chunk</data><data key="text">The authority having jurisdiction issues a special l cence for keeping a potentially 
+dangerous dog where all of the following conditions are met, in addition to the other 
+conditions for the issue of a regular licence for keeping a dog under subsection 2 of 
+section II of chapter III when they are consistent with the conditions set out below: 
+21-012/21 
+ 
+(1) the licence applicant provides written proof stating that the dog received a rabies 
+vaccination, indicating the vaccination and renewal d tes, as well as any such 
+written proof upon the annual licence renewal, or when so requested by the 
+authority having jurisdiction during the licence validity period, or a written 
+opinion from a veterinary surgeon indicating that the vaccination must be 
+postponed to a recommended age or a written opinion from a veterinary surgeon 
+indicating that vaccination is contraindicated for the animal, stipulating the 
+medical reasons. For any contraindication related to age or medical reasons, the 
+veterinary surgeon must use the form in schedule 5; 
+ 
+(2) the licence applicant is 18 years of age or older; 
+ 
+(3) the licence applicant provides a certificate of negative search of a criminal record 
+issued within the last three months or, in the case of a certificate of positive search 
+of a criminal record, a certificate issued by the Service de police de la Ville de 
+Montréal issued no more than three months before and according to which the 
+applicant was not found guilty of an offence listed in schedule 1 and 2, in the five 
+years preceding to the licence application or renewal date; 
+ 
+(4) the licence applicant pays the amount set out in the by-law concerning fees in 
+force. 46. Any dog declared potentially dangerous by the authority having jurisdiction is entered 
+in a municipal public register established for that purpose. Any dog declared potentially 
+dangerous by another local municipality under the Regulation respecting the application of 
+the Act to promote the protection of persons by establishing a framework with regard to 
+dogs (CQLR, chapter P-38.002, r. 1) or any other by-law concerning dogs and for which a 
+special licence for keeping a potentially dangerous dog is issued by the authority having 
+jurisdiction in accordance with this by-law is also entered in the register. 47. The authority having jurisdiction may revoke a special licence for keeping a potentially 
+dangerous dog following a new biting or attack incident or any attempt to bite a person or 
+other domestic animal, or when the authority having jurisdiction determines or is informed 
+that one of the custody conditions under article 44 is not met. The authority having jurisdiction notifies in writing the custodian who holds a special 
+licence of the intention to revoke the licence and llows the custodian to submit comments 
+or observations within 10 days following the notice of intent. The authority having 
+jurisdiction may extend the timeframe where the custodian demonstrates that, although 
+diligent, they are unable to complete the file and submit comments to the authority having 
+jurisdiction within the prescribed timeframe. The authority having jurisdiction informs the 
+custodian in writing. 21-012/22 
+Where, after considering the comments of the custodian who holds the licence, 
+circumstances warrant that the licence be revoked to ensure public health or safety, the 
+authority having jurisdiction notifies the custodian of the decision. Upon receipt of the 
+notice of revocation, the custodian must take one of the following measures: 
+ 
+(1) get rid of the dog by transferring it to a shelter within five days following receipt 
+of the notice of revocation and provide proof of such transfer to the authority 
+having jurisdiction within three days following the transfer of the animal; 
+ 
+(2) have the animal euthanized within five days following the receipt of the notice of 
+licence revocation and provide the authority having jurisdiction with a certificate 
+signed by the veterinary surgeon who performed the euthanasia within three days 
+thereafter. A custodian whose licence is revoked under the first paragraph loses the right to obtain any 
+dog licence for a five-year period from the date th licence is revoked. 48. The custodian of a dog that is declared potentially dangerous by another local 
+municipality under the Regulation respecting the application of the Act to promote the 
+protection of persons by establishing a framework with regard to dogs (CQLR, 
+chapter P-38.002, r. 1) or a municipal by-law concer ing dogs must comply with all of the 
+conditions set out in article 44, except for paragraphs (4), (5), (9) and (10), as soon as the 
+dog arrives on city territory. If such dog and its custodian take up residence on city 
+territory, the custodian must inform the authority having jurisdiction within three days 
+thereafter. The custodian must then obtain a special li ence for keeping a potentially 
+dangerous dog in accordance with the provisions of article 45 and comply with all of the 
+requirements under article 44. 49. At the request of a custodian whose dog the authority having jurisdiction has declared 
+potentially dangerous, or at the request of a custodian whose dog is declared potentially 
+dangerous by another local municipality and whose place of custody is now on city 
+territory, the authority having jurisdiction may re-evaluate the dog’s condition and 
+dangerousness if at least five years have elapsed since the declaration. For that purpose, the authority having jurisdiction may require the custodian to have the 
+dog undergo an examination by a veterinary surgeon that the authority having jurisdiction 
+designates to evaluate the dog’s condition and dangerousness. The examination is at the custodian’s expense according to the amount set out in the 
+by-law concerning fees in force. 21-012/23 
+ 
+50. When there is reasonable cause to believe that a dog declared potentially dangerous 
+poses an increased risk to public health or safety and new measures may be warranted, the 
+authority having jurisdiction may order a new examination of the dog by a veterinary 
+surgeon that the authority having jurisdiction designates to evaluate the dog’s condition 
+and dangerousness.</data><data key="embedding">[F@5a849711</data></node><node id="doc:3"><data key="labelV">chunk</data><data key="text">If the applicant’s address does 
+not appear on the piece of identification, a proof f residence listed in schedule 3 must be 
+provided. In the case where the applicant is a legal person, the designated representative 
+must provide the documentation listed in schedule 3. 21-012/9 
+ 
+16. An application for a licence under article 9 must include the following documents, 
+except in the case of dog or cat six months of age or l ss: 
+ 
+(1) written proof indicating that the dog or cat is sterilized or a written opinion from a 
+veterinary surgeon indicating that the procedure must be postponed to a 
+recommended age or a written opinion from a veterinary surgeon indicating that 
+the procedure is contraindicated for the animal, stipulating the medical reasons, or 
+proof of registration with a recognized breed association for a breeding dog or cat 
+listed in schedule 6. For any contraindication related to age or medical reasons, 
+the veterinary surgeon must use the form in schedule 5; 
+ 
+(2) written proof indicating that the dog or cat has a microchip containing its number 
+or a written opinion from a veterinary surgeon indicat ng that the procedure must 
+be postponed to a recommended age or a written opinion from a veterinary 
+surgeon indicating that the procedure is contraindicated for the animal, stipulating 
+the medical reasons. For any contraindication related to age of medical reasons, 
+the veterinary surgeon must use the form in schedule 5. A custodian whose cat or dog is six months of age or l ss when the licence is issued must, 
+at the time of renewal, provide the proof required un er paragraphs (1) and (2) of the first 
+paragraph. A licence application submitted by a foster home must include a temporary authorization 
+issued by a shelter and a description of the animal. P ragraphs (1) and (2) of the first 
+paragraph do not apply if the shelter indicates, in the temporary authorization, that it 
+obtained possession of the animal following a seizur a thorized by law. 17. A person applying for a licence or permit under article 9 or article 12 must provide a 
+declaration in writing to the authority having jurisd ction stating that, in the five years 
+preceding the application, the person has not been found guilty of: 
+ 
+(1) an offence under the Animal Welfare and Safety Act (CQLR, chapter B-3.1) or 
+the regulations thereunder; 
+ 
+(2) an offence listed in schedule 1; 
+ 
+(3) three offences under the first paragraph of article 29 of this by-law or section 20 
+of the Regulation respecting the application of the Act to promote the protection 
+of persons by establishing a framework with regard to dogs (CQLR, 
+chapter P-38.002, r. 1) for failure to keep the dog on a leash in compliance 
+therewith; 
+ 
+(4) three offences under article 37 with respect to a nuisance referred to in paragraphs 
+(5) or (6) of article 36 or an offence of the same nature under a repealed city by-
+-law concerning dogs; 
+ 
+21-012/10 
+ 
+(5) an offence for failure to comply with a euthanasia order issued by the authority 
+having jurisdiction under the Regulation respecting the application of the Act to 
+promote the protection of persons by establishing a framework with regard to 
+dogs (CQLR, chapter P-38.002, r. 1) or a repealed city by-law concerning dogs or 
+a euthanasia order issued by another local municipality under the aforementioned 
+provincial regulation or a local by-law concerning dogs. The authority having jurisdiction issues or renews a licence under article 9 or article 12 
+when the applicant declares that they meet the conditi s set out in paragraphs (1) to (5) of 
+the first paragraph. If the applicant is a legal person, an organization or a natural person 
+who operates a business, the authority having jurisdict on issues or renews the licence 
+when the applicant declares that the persons who will exercise the rights related to the 
+licence could have satisfied the conditions if they ad applied for the licence themselves. The authority having jurisdiction issues or renews a permit under article 13 when the 
+applicant declares that they meet the conditions under paragraphs (1) and (2) of the first 
+paragraph. If the applicant is a legal person or an organization, the authority having 
+jurisdiction issues or renews the permit when the applicant declares that the persons who 
+will exercise the rights related to the permit could have satisfied the conditions if they had 
+applied for the permit themselves. 18. Every person who provides the authority having jurisdiction with information, for the 
+purposes under articles 15, 16 and 17, which they know or should have known to be false, 
+inaccurate or incomplete, is guilty of an offence. SUBSECTION 3 
+VALIDITY AND REVOCATION OF A LICENCE 
+ 
+19. A licence issued under this section is valid for one year on the entire city territory from 
+the issue date or the expiry date of the current licence in the case of a renewal. An issued licence is non-assignable, non-transferabl , and the licence fee is 
+non-refundable. 20. Following the payment of the prescribed fees under th by-law concerning fees in 
+force, the city gives a tag to the applicant of a licence under article 9 and a licence on 
+which the tag number is indicated, if applicable. The tag is valid on the entire city territory 
+as long as the licence is renewed in accordance with article 22. The custodian must ensure that the animal wears the tag referred to in the first paragraph at 
+all times, except for a cat with a microchip contaiing licence number information. 21. The custodian of an animal for which a licence is issued under article 9 must notify the 
+authority having jurisdiction of any changes to theinformation provided under article 15 as 
+well as of the death, disappearance, transfer, donation or sale of the animal within 15 days 
+following any one of those events.</data><data key="embedding">[F@2c289ac</data></node><node id="452"><data key="labelV">entity</data><data key="name">Usage</data><data key="type">Thing</data></node><node id="doc:2"><data key="labelV">chunk</data><data key="text">No person may have in their possession, on city territory, an animal that is not a species of 
+animal listed in the first paragraph. 8. Despite article 7, the following establishments may keep in captivity an animal that is 
+not a species of animal permitted on city territory: 
+ 
+(1) veterinary clinics, provided that the animal is under the care of a veterinary 
+surgeon; 
+ 
+(2) academic institutions or research institutions; 
+ 
+(3) shelters; 
+ 
+(4) facilities that are members of Canada’s Accredited Zoos and Aquariums, 
+including the Montréal Biodôme; 
+ 
+(5) pet shops, commercial establishments used to temporarily keep or care for animals 
+or to temporarily keep prohibited species of marine a imals for the sole purpose 
+of selling them for food consumption. SECTION II 
+REQUIRED DOG AND CAT LICENCES 
+ 
+SUBSECTION 1 
+LICENCE APPLICATION 
+ 
+9. The custodian of a dog or cat must obtain a licence i accordance with this section. This section does not apply to community cats. The requirement under the first paragraph does not apply when the animal is kept in one of 
+the following establishments: 
+ 
+21-012/7 
+(1) veterinary clinics, provided that the animal is under the care of a veterinary 
+surgeon; 
+ 
+(2) academic institutions or research institutions; 
+ 
+(3) shelters; 
+ 
+(4) pet shops, commercial establishments used to temporarily keep or care for 
+animals. 10. A custodian must obtain a licence within 15 days following the date the animal is 
+acquired, or after the place of custody is established on city territory, or when the animal 
+reaches three months of age, whichever is latest. 11. A dog or cat whose place of custody is located on the territory of another local 
+municipality may be brought onto city territory without requiring a licence application, if 
+the following conditions are met: 
+ 
+(1) the animal must have a valid registration issued by the local municipality where it 
+is usually kept and it must wear the identification provided by said municipality; 
+however, in the case of a cat, only where the other municipality requires 
+registration and identification. The animal’s custodian must, when so requested by 
+the authority having jurisdiction, provide valid proof of registration from the local 
+municipality; 
+ 
+(2) the animal is not a prohibited dog or a hybrid dog. After being kept on city territory for more than 30consecutive days, the dog or cat brought 
+onto city territory is deemed to have its place of custody on city territory and must have a 
+licence issued in accordance with this section. 12. Every person who walks more than three dogs at a time in a public area or a common 
+area must hold a dog walker licence issued in accordance with this by-law or be an 
+employee of the holder of such licence. The holder of a dog walker licence or their employee must carry the licence with them at 
+all times when walking more than three dogs at a time and must show the licence when so 
+requested by the authority having jurisdiction. 13. Any person acting as a custodian under the TNRM program must obtain the mandatory 
+TNRM permit issued in accordance with this by-law. Holders of a TNRM permit, their employees or members must carry the permit at all times 
+when carrying on the activities related to the program and must show the permit when so 
+requested by the authority having jurisdiction. 21-012/8 
+SUBSECTION 2 
+CONDITIONS FOR THE ISSUE OF A LICENCE 
+ 
+14. Subject to the provisions of the Regulation respecting he application of the Act to 
+promote the protection of persons by establishing a framework with regard to dogs (CQLR, 
+chapter P-38.002, r. 1), a licence under this section is issued to any person who submits a 
+complete application in accordance with this by-law nd who pays the amount set out in 
+the by-law concerning fees in force. 15. To obtain any licence under this section, the applicant must be 16 years of age or older. The same applies to every person who is employed as a dog walker by the licence holder. An application for a licence under article 9 must indicate the applicant’s last name, 
+first name, address and telephone number or the nam of the legal person, as the case may 
+be, the animal’s breed or type, sex, weight, colour, year of birth, name and distinctive 
+features, if any. An application for a dog licence under article 9 must also indicate where the animal came 
+from, if known by the applicant. If applicable, the name of the local municipalities where 
+the dog was already registered as well as any decision rendered or order issued by a local 
+municipality regarding the dog or the custodian under the Regulation respecting the 
+application of the Act to promote the protection of persons by establishing a framework 
+with regard to dogs (CQLR, chapter P-38.002, r. 1) or a municipal by-law concerning dogs. The person applying for a licence under article 9 must provide a valid piece of 
+identification listed in schedule 3. If the applicant’s address does not appear on the piece of 
+identification, a proof of residence listed in schedul 3 must be provided. In the case where 
+the applicant is a legal person, the designated repres ntative must be 16 years of age or 
+older and provide the documentation referred to in schedule 3. The fourth paragraph of this article does not apply to a person having used the services of 
+one of the organizations listed in the schedule to the by-law concerning fees in force during 
+the six months prior to the licence application and who provides a signed certificate from 
+this organization to that effect. An application for a licence under articles 12 and 13 must indicate the last name, 
+first name, address and telephone number of the person applying for the licence or the 
+name of the legal person, as the case may be. The person applying for the licence must 
+provide a valid piece of identification listed in schedule 3.</data><data key="embedding">[F@52bf4556</data></node><node id="198"><data key="labelV">entity</data><data key="name">To</data><data key="type">Thing</data></node><node id="doc:5"><data key="labelV">chunk</data><data key="text">The pet shop must also provide to any person who acquires an animal of those species of 
+animal a document containing its description, proof f transfer by a shelter or veterinary 
+clinic and the transfer date. The pet shop must also provide to any person who acquires: 
+ 
+(1) a dog or a cat over six-months old or a rabbit, written proof that the animal is 
+sterilized or a written opinion from a veterinary surgeon indicating that the 
+procedure must be postponed to a recommended age or written opinion from a 
+veterinary surgeon indicating that the procedure is contraindicated for the animal, 
+stipulating the medical reasons. For any contraindication related to age or medical 
+reasons, the veterinary surgeon must use the form in schedule 5; 
+ 
+(2) a dog or a cat over six-months old, written proof indicating that the dog or cat has 
+a microchip that includes its identification number, o a written opinion from a 
+veterinary surgeon indicating that the procedure must be postponed to a 
+recommended age or written opinion from a veterinary surgeon indicating that the 
+procedure is contraindicated for the animal, stipulating the medical reasons. For 
+any contraindication related to age or medical reasons, the veterinary surgeon 
+must use the form in schedule 5; 
+ 
+ 
+21-012/14 
+SECTION V 
+VARIOUS STANDARDS FOR THE KEEPING OF ANIMALS 
+ 
+SUBSECTION 1 
+STANDARDS APPLICABLE TO DOGS 
+ 
+28. A dog must be under the control of a person capable of controlling it at all times when 
+the animal is outside of an occupancy unit or in common areas. 29. All dogs must be held on a leash no longer than 1.85 metres. In addition, all dogs 
+weighing 20 kg or more must wear a head halter or a harness to which the leash is attached, 
+except for guide or service dogs. The first paragraph does not apply in any of the following situations: 
+ 
+(1) the dog is kept inside of a building or its presence is specifically authorized by the 
+owner, tenant or occupant, excluding common areas except with express consent 
+of all persons who have the right of use of the common area; 
+ 
+(2) the dog, accompanied by a custodian, is inside of an occupancy unit where its 
+presence is specifically authorized, excluding the common areas except with 
+express consent of all persons who have the right of use of the common area, and 
+when the dog is outside of a building, it is held with a restraining device 
+preventing it from leaving the property when the land is not fenced off to prevent 
+the animal from getting out; 
+ 
+(3) the dog is kept on private land or on the balcony or gallery of a private building 
+where its presence is specifically authorized, excluding the common areas except 
+with express consent of all persons who have the right of use of the common 
+areas, which is fenced off to prevent the animal from getting out; 
+ 
+(4) the dog is in a dog exercise area. 30. No person may walk more than three dogs at a time in a public or common area, except 
+the holder of a dog walking licence or their employees who may walk a maximum of eight 
+dogs. SUBSECTION 2 
+STANDARDS APPLICABLE TO ALL ANIMALS 
+ 
+31. In order to ensure public safety, no person may put a choke collar, spike collar, 
+electrical collar or any other collar on an animal that may cause it pain. 32. No person may keep an animal tethered with a restraining device, namely a chain or 
+rope, for more than three hours. 21-012/15 
+ 
+All restraining devices must comply with the following requirements: 
+ 
+(1) it is not likely to get stuck or shortened, namely by getting wrapped around an 
+obstacle; 
+ 
+(2) it does not cause discomfort or pain to the animal, p rticularly because of its 
+weight; 
+ 
+(3) it allows the animal to move without danger or constraint. 33. The custodian must ensure that the outdoor parts of the occupancy unit where the 
+animal is kept, including a yard, a balcony or a gallery are free of urine or faeces produced 
+by the animal. 34. No person may dispose of the body of an animal other than by leaving it with a shelter, 
+a veterinary clinic or other place legally authorized to receive dead animals. 35. No person may get rid of an animal other than by transferring it to a new custodian, a 
+shelter or a veterinary clinic. Despite the first paragraph, no person may get rid of an at-risk dog, a dog subject to an 
+order to comply with a custody measure issued by the authority having jurisdiction or by 
+another local municipality, or a dog declared potentially dangerous by the authority having 
+jurisdiction or by another local municipality other than by transferring the dog to a shelter 
+or a veterinary clinic. The custodian of such dog is required to inform the shelter or 
+veterinary clinic of the dog’s status. Despite the second paragraph, in the event of the custodian’s death, a family member or a 
+significant other who requests custody of the dog may take possession of the animal where 
+the person is not the subject of an order issued by the authority having jurisdiction or 
+another local municipality prohibiting them from keeping a dog, in addition to complying 
+with the provisions of articles 14, 15, 16, 17 and 45, depending on the dog’s status. The 
+person must contact the authority having jurisdiction as soon as possible after taking 
+possession of the animal. Despite the first paragraph, no person may get rid of a prohibited dog other than by 
+transferring it to a shelter or a veterinary clinic. The custodian of such dog is required to 
+inform the shelter or veterinary clinic of the animal’s status. The fees related to surrendering an animal referred to in the first or fourth paragraph are 
+borne by the custodian who surrendered the animal. 21-012/16 
+SECTION VI 
+NUISANCES 
+ 
+36.</data><data key="embedding">[F@f6f0db3</data></node><node id="doc:4"><data key="labelV">chunk</data><data key="text">21-012/11 
+ 
+The custodian of a dog or cat with a microchip must notify the microchip supplier of any 
+changes to the custodian’s contact information within 15 days following the change. 22. Every holder of a licence issued under this section must renew that licence by 
+submitting a complete application in accordance with the provisions in subsection 2 of this 
+section, no later than on the expiry date of the current licence. Where the licence referred to in article 9 is not renewed before it expires, additional fees 
+are added to the cost of the licence, according to the amount set out in the by-law 
+concerning fees in force. 23. Any licence issued under this section is revoked by the authority having jurisdiction 
+when the latter determines or is informed that one f the conditions for obtaining a licence 
+was not met at the time the licence was issued or renewed. A custodian whose licence is revoked by the authority having jurisdiction must relinquish 
+the animal in accordance with article 35 within 10 days following the revocation notice and 
+submit proof thereof to the authority having jurisdiction within three days following the 
+transfer of the animal. A custodian whose licence is revoked because they provided information they knew or 
+should have known was false or misleading, pertaining to being found guilty of an offence 
+under paragraphs (1) to (5) of the first paragraph of article 17, loses the right to obtain a 
+new licence for five years from the date the permit is revoked. 24. The authority having jurisdiction may revoke a TNRM permit or refuse to renew such 
+permit when the holder or one of their employees or members was found guilty of an 
+offence referred to in paragraphs (1) and (2) of the first paragraph of article 17, was found 
+guilty of an offence under article 37 with respect to a nuisance referred to in paragraph (10) 
+of article 36, or where the holder failed to comply with the requirements under the current 
+and applicable TNRM program. The authority having jurisdiction may also revoke a licence under article 9 or a dog walker 
+licence or refuse to renew it when the holder or one f their employees or members was 
+found guilty of an offence referred to in paragraphs (1) to (5) of the first paragraph of 
+article 17. The authority having jurisdiction sends written notice to the licence holder of the intent to 
+revoke the licence or deny its renewal and allows the licence holder to submit comments or 
+observations within 10 days following the date of the notice of intent. After considering the comments submitted by the licnce holder, if the circumstances 
+justify the revocation or non-renewal of the licenc, the authority having jurisdiction 
+notifies the licence holder of the decision. 21-012/12 
+SECTION III 
+MAXIMUM NUMBER OF ANIMALS ALLOWED IN AN OCCUPANCY UNIT 
+ 
+25. No person may: 
+ 
+(1) keep more than four cats or dogs in an occupancy unit, but no more than three 
+dogs; 
+ 
+(2) keep more than eight domestic animals in an occupancy u it, all permitted species 
+combined, with the exception of fish; 
+ 
+(3) engage in any form of animal breeding, namely the op ration of a kennel, a 
+cattery or a hutch, except if the executive committee has adopted an ordinance 
+under article 66 authorizing such activity. Despite paragraphs (1) and (2) of the first paragraph, when a female dog, cat or rabbit gives 
+birth, the puppies, kittens and bunnies may be kept for a period not exceeding three 
+months. Despite paragraph (1) of the first paragraph, a foster home may keep a maxi um of eight 
+cats, including the cats not covered by a temporary authorization issued by a shelter. For the purposes of paragraph (3) of the first paragraph, an occupancy unit is deemed to be 
+a kennel, a cattery or a hutch where at least three dogs, three cats or three rabbits are kept, 
+of which no fewer than two, depending on the species, are of the opposite sex, and where 
+dogs, cats or rabbits are sold or given away, as the case may be, except for a shelter, 
+veterinary clinic or pet shop. The prohibitions under paragraphs (1) to (3) of the first paragraph do not apply to the 
+following institutions: 
+ 
+(1) academic institutions or research institutions; 
+ 
+(2) member institutions of Canada’s Accredited Zoos andAquariums, including the 
+Montréal Biodôme. The prohibitions under paragraphs (1) and (2) of the first paragraph do not apply to the 
+following establishments: 
+ 
+(1) veterinary clinics, provided that the animal is under the care of a veterinary 
+surgeon; 
+ 
+(2) shelters; 
+ 
+(3) pet shops, commercial establishments used to temporarily keep or care for animals 
+or to temporarily keep prohibited species of marine a imals for the sole purpose 
+of selling them for food consumption. 21-012/13 
+ 
+SECTION IV 
+CONTROL MEASURES FOR CERTAIN SPECIES 
+ 
+26. Rabbits must be sterilized within 15 days following the date the animal is acquired or 
+after its place of custody is established on city territory. The custodian must have written 
+proof indicating that the rabbit is sterilized or a written opinion from a veterinary surgeon 
+indicating that the procedure must be postponed to a recommended age or a written opinion 
+from a veterinary surgeon indicating that the procedur is contraindicated for the animal, 
+stipulating the medical reasons. For any contraindication related to age or medical reasons, 
+the veterinary surgeon must use the form in schedule 5. 27. No pet shop may sell or give away a dog, a cat or arabbit, except if the animal was 
+transferred to the pet shop by a shelter or a veterinary clinic. Any pet shop that keeps a dog, a cat or a rabbit must, at all times, be able to demonstrate to 
+the authority having jurisdiction where the animal c me from by producing a document 
+containing a description of the animal, proof of transfer by a shelter or veterinary clinic and 
+the transfer date.</data><data key="embedding">[F@71ad3f50</data></node><node id="457"><data key="labelV">entity</data><data key="name">Violation</data><data key="type">Thing</data></node><node id="461"><data key="labelV">entity</data><data key="name">Tuer</data><data key="type">Thing</data></node><node id="465"><data key="labelV">entity</data><data key="name">Placer</data><data key="type">Thing</data></node><node id="210"><data key="labelV">entity</data><data key="name">Animal Welfare</data><data key="type">Thing</data></node><node id="214"><data key="labelV">entity</data><data key="name">Safety Act</data><data key="type">Thing</data></node><node id="472"><data key="labelV">entity</data><data key="name">Causer</data><data key="type">Thing</data></node><node id="doc:1"><data key="labelV">chunk</data><data key="text">An occupancy unit also includes common areas, all types of 
+accessory buildings (garages, sheds and others) as well as the land on which the main and 
+the accessory buildings are located; 
+ 
+“pet shop” means a commercial establishment where animals are kept, sold or given away 
+to the public, excluding shelters or veterinary clini s; 
+ 
+“place of custody” means the occupancy unit where an animal is primarily kept by its 
+custodian; 
+ 
+“potentially dangerous dog” means an at-risk dog declar d potentially dangerous by the 
+authority having jurisdiction under the Regulation respecting the application of the Act to 
+promote the protection of persons by establishing a framework with regard to dogs (CQLR, 
+chapter P-38.002, r. 1) or by another local municipality under said regulation or a 
+municipal by-law concerning dogs; 
+ 
+“prohibited dog” means a dog subject to a euthanasi order issued by the authority having 
+jurisdiction or another local municipality under the Regulation respecting the application of 
+the Act to promote the protection of persons by establishing a framework with regard to 
+dogs (CQLR, chapter P-38.002, r. 1) or under a municipal by-law concerning dogs; 
+ 
+“public area” means namely a street, a lane, a pedestrian path, a park, a public playground, 
+a public swimming pool, a school yard, a median, a bike path, a green space, a public 
+garden; 
+ 
+ 
+21-012/4 
+“shelter” means an establishment that holds a valid permit for the operation of a dog or cat 
+shelter issued by the Ministère de l’Agriculture, des Pêcheries et de l’Alimentation 
+(MAPAQ); 
+ 
+“stray animal” means any domestic animal that is not kept on a leash, is not accompanied 
+by a custodian, and is not on land owned, rented or occupied by the custodian, except for a 
+community cat and a cat with a tag or a microchip containing information that makes it 
+possible to verify the issued licence number; 
+ 
+“TNRM” means the trap, neuter, release and maintain program, which aims to sterilize, tag 
+and vaccinate community cats, and then return them to their place of capture and where at 
+least one natural or legal person acts as their custodian. CHAPTER II 
+APPLICATION AND ADMINISTRATION 
+ 
+2. This by-law governs the keeping and presence of domestic animals on the entire city 
+territory. In the case of dogs, this by-law supplements the conditions and framework under 
+the Regulation respecting the application of the Act to promote the protection of persons by 
+establishing a framework with regard to dogs (CQLR, chapter P-38.002, r. 1). Despite the first paragraph, this by-law does not apply to police forces or other government 
+organizations that keep and use dogs or horses. 3. The authority having jurisdiction exercises the following powers, subject to specific 
+provisions under this by-law regulating the exercise of said powers and without infringing 
+on the rights and powers under the Regulation respecting the application of the Act to 
+promote the protection of persons by establishing a framework with regard to dogs (CQLR, 
+chapter P-38.002, r. 1): 
+ 
+(1) to visit and inspect any part of an occupancy unit or any other place for the 
+purposes of this by-law; 
+ 
+(2) to entrust to an animal services centre any stray o abandoned animal, or any 
+animal that does not belong to a species permitted under article 7; 
+ 
+(3) issue an order to euthanize or have euthanized a highly contagious animal, 
+according to a certificate from a veterinary surgeon, r an abandoned, a stray, 
+dying or seriously injured animal; 
+ 
+(4) to require that the custodian of a domestic animal provide any documentation and 
+information relevant to the application of this by-law; 
+ 
+(5) to apply to a judge to obtain permission to capture and seize any animal in an 
+occupancy unit whose custodian contravenes this by-law or refuses or fails to 
+comply with an order issued by the authority having jurisdiction under this 
+by-law. 21-012/5 
+ 
+For the purposes of paragraph (1) of the first paragraph, every owner, tenant, or occupant 
+of an occupancy unit must allow the authority having jurisdiction, upon showing a piece of 
+identification, to access the occupancy unit visited. 4. No person may inconvenience or insult the authority having jurisdiction, refuse or fail 
+to comply with a request from the authority having jurisdiction, or hinder their actions or 
+otherwise obstruct the authority having jurisdiction n the performance of their duties. 5. The authority having jurisdiction is designated responsible for the inspections and 
+seizures referred to in Subdivisions 1 and 2 of Division V of the Regulation respecting the 
+application of the Act to promote the protection of persons by establishing a framework 
+with regard to dogs (CQLR, chapter P-38.002, r. 1), as well as for the exercise of powers 
+under Division III of said regulation. 6. All expenditures the city incurs under this by-law nd the Regulation respecting the 
+application of the Act to promote the protection of persons by establishing a framework 
+with regard to dogs (CQLR, chapter P-38.002, r. 1) are at the expense of the animal’s 
+custodian. CHAPTER III 
+ANIMAL CONTROL AND NUISANCES 
+ 
+SECTION I 
+PERMITTED DOMESTIC ANIMALS 
+ 
+7. The following species of animal may be kept in captivity inside of an occupancy unit 
+located on city territory: 
+ 
+(1) dogs, except hybrid dogs; 
+ 
+(2) cats; 
+ 
+(3) rabbits; 
+ 
+(4) ferrets; 
+ 
+(5) domestic rodents weighing less than 1.5 kg; 
+ 
+(6) sugar gliders; 
+ 
+(7) hedgehogs, except Erinaceus; 
+ 
+(8) birds, except galliformes (e.g. chickens, quails, turkeys, grouse, peacocks, 
+pheasants), anseriformes (e.g. screamers, geese, swans, ducks, teals), 
+struthioniformes (e.g.: ostriches, emus, kiwis); 
+ 
+21-012/6 
+ 
+(9) reptiles, except snakes whose length in adulthood reaches more than 3 m, 
+venomous snakes, lizards whose length in adulthood reaches more than 2 m, 
+venomous lizards, sea turtles, turtles from Tryonychidae family and alligators, 
+crocodiles, caimans and other crocodilians; 
+ 
+(10) the American toad, the wood frog, the mink frog, the leopard frog, the green frog, 
+the mudpuppy, the bullfrog, the newt and all the exotic amphibians, except 
+poisonous amphibians; 
+ 
+(11) fish authorized to be kept in captivity in accordance with the Act respecting the 
+conservation and development of wildlife (CQLR, chapter C-61.1) and the 
+regulations thereunder.</data><data key="embedding">[F@67345720</data></node><node id="doc:0"><data key="labelV">chunk</data><data key="text">21-012/1 
+VILLE DE MONTRÉAL 
+BY-LAW 
+21-012 
+ 
+ 
+ 
+BY-LAW CONCERNING DOMESTIC ANIMALS 
+ 
+In view of sections 6, 10, 59, 62 and 63 of the Municipal Powers Act (CQLR, 
+chapter C-47.1); 
+ 
+In view of sections 369 and 411 of the Cities and Towns Act (CQLR, chapter C-19); 
+ 
+In view of section 136.1 of the Charter of Ville deMontréal, metropolis of Québec (CQLR, 
+chapter C-11.4) and sections 47 and 185.1 of schedule C to the charter; 
+ 
+In view of the Regulation respecting the application of the Act to promote the protection of 
+persons by establishing a framework with regard to ogs (CQLR, chapter P-38.002, r. 1), 
+the enforcement of which is entrusted to local municipalities; 
+ 
+In view of resolution CM18 1021, whereby city council declares its jurisdiction over the 
+adoption of by-laws concerning dogs and other domestic animals for a five-year period 
+(from August 22, 2018 to August 22, 2023); 
+ 
+At its meeting of February 22, 2021, city council enacts: 
+ 
+CHAPTER I 
+INTERPRETATION AND ADMINISTRATION 
+ 
+1. In this by-law: 
+ 
+“abandoned animal” means any domestic animal left in any place for more than 24 hours 
+without decent food, water or shelter, or left in an occupancy unit after the owner, tenant or 
+occupant has vacated the occupancy unit permanently; 
+ 
+“animal services centre” means a shelter designated by the city to provide it with animal 
+control services; 
+ 
+“at-risk dog” means a dog under investigation by the authority having jurisdiction who has 
+reasonable grounds to believe that the dog constitutes a risk to public health or safety. An 
+at-risk dog also means a dog that has bitten, has attempted to bite or has attacked a person 
+or domestic animal, and such classification remains u til further notice by the authority 
+having jurisdiction at the end of the investigation; 
+ 
+21-012/2 
+ 
+“authority having jurisdiction” means any employee r sponsible for the enforcement of this 
+by-law or the Regulation respecting the application of the Act to promote the protection of 
+persons by establishing a framework with regard to ogs (CQLR, chapter P-38.002, r. 1), a 
+peace officer as well as any representative whose services are retained by the city to ensure 
+compliance with this by-law; 
+ 
+“certificate from a professional training organizaton for guide and service dogs” means a 
+document issued to an individual by a professional training organization in which a photo 
+of the individual and their dog appears as well as the individual’s contact information and 
+the dog’s information. The document must be valid an current. If the dog is in training, 
+the proof provided must come from the professional training organization and indicate that 
+the dog is in training and mention a deadline for said training. Organizations recognized by 
+the city must train guide and service dogs as defined this by-law; 
+ 
+“certificate of negative search of a criminal record” means a document issued by a 
+Canadian police force or an agency that has been accredited by the Royal Canadian 
+Mounted Police, certifying the absence of a criminal record; 
+ 
+“certificate of positive search of a criminal record” means a document issued by a 
+Canadian police force or an agency that has been accredited by the Royal Canadian 
+Mounted Police, certifying the existence of a criminal record; 
+ 
+“city territory” means the territory referred to insection 3 of the Charter of Ville de 
+Montréal, metropolis of Québec (CQLR, chapter C-11.4); 
+ 
+“common area” means a private indoor or outdoor space where owners, tenants or 
+occupants do not have exclusive use, namely a yard,a corridor or an elevator; 
+ 
+“community cat” means a feral cat, namely a cat living in a semi-wild state, and that 
+typically cannot be kept inside of an occupancy unit, and has been trapped, sterilized, 
+vaccinated and released under the Trap-Neuter-Release-M intain program (TNRM); 
+ 
+“custodian” means any person who owns, possesses or keeps an animal, including a pet 
+shop. In the case of a natural person under the age of 16, the custodian means the father, 
+mother, guardian or person responsible, for that person; 
+ 
+“dog exercise area” means an area designated with signs posted by the city indicating that 
+it is place where dogs are permitted to run free off leash; 
+ 
+“dog walker” means a natural person or a legal person, including the person’s employees, 
+acting on their own behalf or as an employee to walk dogs they do now not own for a 
+business; 
+ 
+“dwelling unit” means an indoor space used for housing, excluding an accessory building 
+and a common area; 
+ 
+21-012/3 
+“foster home” means a person who received authorization from a shelter to provide 
+temporary shelter for each animal kept; 
+ 
+“guide and service dog” means a dog used namely by a person with a visual impairment, 
+autism, epilepsy or a hearing impairment, who has received a certificate from a 
+professional training organization for guide and servic dogs stating that the dog received 
+training or is in training for such purposes. A therapy dog or an emotional support dog, 
+even if classified as such by a physician, is not considered a guide or service dog within the 
+meaning of this by-law; 
+ 
+“hybrid dog” means a dog bred from a mix between a dog and a canidae other than a dog; 
+ 
+“microchip” means an encoded electronic device inserted under the skin of an animal by a 
+veterinary surgeon or a person under the latter’s supervision, that contains a unique code 
+linked to a central database, used to identify and keep track of dogs and cats; 
+ 
+“muzzle” means to put a basket muzzle on a dog, namely a device surrounding the muzzle 
+of the animal with enough strength to prevent the anim l from biting; 
+ 
+“occupancy unit” means one or more rooms in a building. Without limiting the generality 
+of the foregoing, an occupancy unit includes a single-family home, each dwelling unit in a 
+multi-dwelling building, each dwelling unit in a rooming house and each private unit in a 
+divided co-ownership.</data><data key="embedding">[F@4f893b65</data></node><node id="476"><data key="labelV">entity</data><data key="name">Faire</data><data key="type">Thing</data></node><node id="480"><data key="labelV">entity</data><data key="name">Administrer</data><data key="type">Thing</data></node><node id="225"><data key="labelV">entity</data><data key="name">Following</data><data key="type">Thing</data></node><node id="484"><data key="labelV">entity</data><data key="name">Organiser</data><data key="type">Thing</data></node><node id="488"><data key="labelV">entity</data><data key="name">En</data><data key="type">Thing</data></node><node id="233"><data key="labelV">entity</data><data key="name">Where</data><data key="type">Thing</data></node><node id="493"><data key="labelV">entity</data><data key="name">Abandonner</data><data key="type">Thing</data></node><node id="497"><data key="labelV">entity</data><data key="name">Construire</data><data key="type">Thing</data></node><node id="247"><data key="labelV">entity</data><data key="name">Rabbits</data><data key="type">Thing</data></node><node id="504"><data key="labelV">entity</data><data key="name">Infractions</data><data key="type">Thing</data></node><node id="508"><data key="labelV">entity</data><data key="name">Terrorisme</data><data key="type">Thing</data></node><edge id="515" source="doc:12" target="512"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="516" source="doc:12" target="504"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="517" source="doc:12" target="504"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="6" source="doc:0" target="3"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="518" source="doc:12" target="504"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="10" source="doc:0" target="7"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="522" source="doc:12" target="519"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="14" source="doc:0" target="11"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="526" source="doc:12" target="523"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="18" source="doc:0" target="15"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="530" source="doc:12" target="527"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="531" source="doc:12" target="436"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="22" source="doc:0" target="19"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="535" source="doc:12" target="532"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="536" source="doc:12" target="504"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="537" source="doc:12" target="504"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="26" source="doc:0" target="23"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="541" source="doc:12" target="538"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="30" source="doc:0" target="27"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="542" source="doc:12" target="27"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="543" source="doc:12" target="27"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="34" source="doc:0" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="547" source="doc:12" target="544"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="548" source="doc:12" target="538"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="38" source="doc:0" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="552" source="doc:12" target="549"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="42" source="doc:0" target="39"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="43" source="doc:0" target="39"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="556" source="doc:12" target="553"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="47" source="doc:0" target="44"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="48" source="doc:0" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="560" source="doc:12" target="557"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="49" source="doc:0" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="561" source="doc:12" target="27"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="53" source="doc:0" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="565" source="doc:12" target="562"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="566" source="doc:12" target="27"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="57" source="doc:0" target="54"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="570" source="doc:12" target="567"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="571" source="doc:12" target="23"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="61" source="doc:0" target="58"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="575" source="doc:12" target="572"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="576" source="doc:12" target="538"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="65" source="doc:0" target="62"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="577" source="doc:12" target="27"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="66" source="doc:0" target="58"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="578" source="doc:12" target="27"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="67" source="doc:0" target="62"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="579" source="doc:12" target="544"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="68" source="doc:0" target="15"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="580" source="doc:12" target="538"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="69" source="doc:0" target="19"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="70" source="doc:0" target="23"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="71" source="doc:0" target="27"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="75" source="doc:0" target="72"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="587" source="doc:13" target="584"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="79" source="doc:0" target="76"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="591" source="doc:13" target="588"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="83" source="doc:0" target="80"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="595" source="doc:13" target="592"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="87" source="doc:0" target="84"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="599" source="doc:13" target="596"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="91" source="doc:1" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="603" source="doc:13" target="600"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="92" source="doc:1" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="93" source="doc:1" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="94" source="doc:1" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="607" source="doc:13" target="604"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="98" source="doc:1" target="95"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="611" source="doc:13" target="608"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="102" source="doc:1" target="99"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="615" source="doc:13" target="612"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="106" source="doc:1" target="103"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="619" source="doc:13" target="616"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="110" source="doc:1" target="107"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="111" source="doc:1" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="623" source="doc:13" target="620"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="112" source="doc:1" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="624" source="doc:13" target="444"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="625" source="doc:13" target="620"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="116" source="doc:1" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="117" source="doc:1" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="629" source="doc:13" target="626"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="118" source="doc:1" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="630" source="doc:13" target="612"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="122" source="doc:1" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="634" source="doc:13" target="631"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="635" source="doc:13" target="620"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="126" source="doc:1" target="123"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="639" source="doc:13" target="636"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="130" source="doc:1" target="127"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="131" source="doc:1" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="643" source="doc:13" target="640"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="132" source="doc:1" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="133" source="doc:1" target="127"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="647" source="doc:13" target="644"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="137" source="doc:1" target="134"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="138" source="doc:1" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="139" source="doc:1" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="651" source="doc:13" target="648"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="143" source="doc:1" target="140"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="655" source="doc:13" target="652"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="147" source="doc:1" target="144"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="659" source="doc:13" target="656"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="660" source="doc:13" target="158"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="661" source="doc:13" target="58"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="662" source="doc:13" target="636"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="151" source="doc:1" target="148"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="152" source="doc:1" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="666" source="doc:13" target="663"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="156" source="doc:2" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="157" source="doc:2" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="670" source="doc:13" target="667"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="161" source="doc:2" target="158"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="674" source="doc:13" target="671"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="165" source="doc:2" target="162"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="678" source="doc:13" target="675"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="169" source="doc:2" target="166"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="170" source="doc:2" target="23"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="682" source="doc:13" target="679"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="683" source="doc:13" target="148"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="174" source="doc:2" target="171"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="175" source="doc:2" target="107"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="687" source="doc:13" target="684"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="688" source="doc:13" target="684"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="179" source="doc:2" target="176"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="692" source="doc:13" target="689"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="183" source="doc:2" target="180"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="187" source="doc:2" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="191" source="doc:2" target="188"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="195" source="doc:2" target="192"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="196" source="doc:2" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="197" source="doc:2" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="201" source="doc:2" target="198"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="202" source="doc:2" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="203" source="doc:2" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="204" source="doc:2" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="205" source="doc:2" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="209" source="doc:3" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="213" source="doc:3" target="210"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="217" source="doc:3" target="214"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="218" source="doc:3" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="219" source="doc:3" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="220" source="doc:3" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="221" source="doc:3" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="222" source="doc:3" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="223" source="doc:3" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="224" source="doc:3" target="180"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="228" source="doc:3" target="225"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="232" source="doc:4" target="180"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="236" source="doc:4" target="233"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="237" source="doc:4" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="238" source="doc:4" target="176"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="239" source="doc:4" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="240" source="doc:4" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="241" source="doc:4" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="242" source="doc:4" target="158"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="243" source="doc:4" target="162"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="244" source="doc:4" target="166"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="245" source="doc:4" target="23"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="246" source="doc:4" target="171"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="250" source="doc:4" target="247"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="251" source="doc:4" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="252" source="doc:4" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="256" source="doc:5" target="134"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="257" source="doc:5" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="258" source="doc:5" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="259" source="doc:5" target="134"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="260" source="doc:5" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="261" source="doc:5" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="262" source="doc:5" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="263" source="doc:5" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="264" source="doc:5" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="271" source="doc:6" target="268"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="272" source="doc:6" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="273" source="doc:6" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="274" source="doc:6" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="275" source="doc:6" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="276" source="doc:6" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="277" source="doc:6" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="281" source="doc:6" target="278"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="285" source="doc:6" target="282"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="286" source="doc:6" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="287" source="doc:6" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="291" source="doc:7" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="292" source="doc:7" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="293" source="doc:7" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="294" source="doc:7" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="295" source="doc:7" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="296" source="doc:7" target="278"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="297" source="doc:7" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="298" source="doc:7" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="299" source="doc:7" target="278"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="300" source="doc:7" target="278"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="301" source="doc:7" target="278"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="308" source="doc:8" target="305"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="309" source="doc:8" target="19"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="310" source="doc:8" target="23"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="311" source="doc:8" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="312" source="doc:8" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="313" source="doc:8" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="314" source="doc:8" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="315" source="doc:8" target="233"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="316" source="doc:8" target="282"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="317" source="doc:8" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="318" source="doc:8" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="319" source="doc:8" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="320" source="doc:8" target="278"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="327" source="doc:9" target="324"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="328" source="doc:9" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="329" source="doc:9" target="192"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="330" source="doc:9" target="127"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="331" source="doc:9" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="332" source="doc:9" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="333" source="doc:9" target="278"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="334" source="doc:9" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="335" source="doc:9" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="336" source="doc:9" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="337" source="doc:9" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="338" source="doc:9" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="342" source="doc:10" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="343" source="doc:10" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="344" source="doc:10" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="345" source="doc:10" target="50"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="346" source="doc:10" target="198"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="350" source="doc:10" target="347"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="354" source="doc:10" target="351"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="355" source="doc:10" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="356" source="doc:10" target="119"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="357" source="doc:10" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="358" source="doc:10" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="359" source="doc:10" target="192"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="360" source="doc:10" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="361" source="doc:10" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="362" source="doc:10" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="363" source="doc:10" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="364" source="doc:10" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="365" source="doc:10" target="113"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="366" source="doc:10" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="367" source="doc:10" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="371" source="doc:11" target="180"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="372" source="doc:11" target="107"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="376" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="377" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="381" source="doc:11" target="378"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="382" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="383" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="384" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="385" source="doc:11" target="378"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="386" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="387" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="388" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="389" source="doc:11" target="378"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="390" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="391" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="392" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="393" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="394" source="doc:11" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="395" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="396" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="400" source="doc:11" target="397"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="401" source="doc:11" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="402" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="403" source="doc:11" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="404" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="405" source="doc:11" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="406" source="doc:11" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="407" source="doc:11" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="408" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="409" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="410" source="doc:11" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="411" source="doc:11" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="412" source="doc:11" target="184"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="413" source="doc:11" target="373"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="414" source="doc:11" target="31"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="415" source="doc:11" target="35"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="416" source="doc:11" target="180"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="423" source="doc:12" target="420"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="427" source="doc:12" target="424"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="431" source="doc:12" target="428"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="435" source="doc:12" target="432"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="439" source="doc:12" target="436"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="443" source="doc:12" target="440"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="447" source="doc:12" target="444"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="451" source="doc:12" target="448"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="455" source="doc:12" target="452"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="456" source="doc:12" target="448"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="460" source="doc:12" target="457"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="464" source="doc:12" target="461"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="468" source="doc:12" target="465"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="469" source="doc:12" target="461"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="470" source="doc:12" target="465"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="471" source="doc:12" target="461"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="475" source="doc:12" target="472"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="479" source="doc:12" target="476"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="483" source="doc:12" target="480"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="487" source="doc:12" target="484"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="491" source="doc:12" target="488"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="492" source="doc:12" target="472"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="496" source="doc:12" target="493"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="500" source="doc:12" target="497"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="501" source="doc:12" target="457"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="502" source="doc:12" target="436"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="503" source="doc:12" target="440"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="507" source="doc:12" target="504"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge><edge id="511" source="doc:12" target="508"><data key="labelE">MENTIONS</data><data key="weight">1.0</data></edge></graph></graphml>
