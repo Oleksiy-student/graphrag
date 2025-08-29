@@ -8,9 +8,11 @@ public class AnswerComposer {
     sb.append("Question: ").append(query).append("\n\n");
     sb.append("Evidence (most relevant first):\n");
 
-    for (int i = 0; i < hits.size(); i++) {
-      Retriever.Hit h = hits.get(i);
-      sb.append(String.format("%d) %s (score=%.3f)\n", i + 1, h.text, h.score));
+    for (Retriever.Hit hit : hits) {
+      String preview = hit.text.length() > 100 ? hit.text.substring(0, 100) + "..." : hit.text;
+      sb.append("- [").append(hit.chunkId).append("] ").append(preview)
+        .append(String.format(" (score=%.4f)", hit.score))
+        .append("\n");
     }
 
     sb.append("Draft Answer:\n");

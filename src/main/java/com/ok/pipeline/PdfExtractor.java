@@ -7,12 +7,30 @@ import java.io.File;
 import java.io.IOException;
 
 public class PdfExtractor {
-   public String extract(File pdfFile) throws IOException {
-      try (PDDocument document = PDDocument.load(pdfFile)) {
-        PDFTextStripper stripper = new PDFTextStripper();
-        stripper.setLineSeparator("\n\n"); // preserve paragraph breaks
-        String text = stripper.getText(document);
-        return text.trim();
+  /**
+   * Extracts text from a PDF while preserving paragraph breaks and headings.
+   * Returns a single String where paragraphs are separated by double newlines.
+   */
+  public String extract(File pdfFile) throws IOException {
+    try (PDDocument document = PDDocument.load(pdfFile)) {
+      PDFTextStripper stripper = new PDFTextStripper();
+      stripper.setLineSeparator("\n");
+      String rawText = stripper.getText(document);
+
+      // Normalize line breaks: collapse multiple blank lines into double newline
+      String normalized = rawText.replaceAll("(?m)^[ \t]*\r?\n", "\n")
+                                  .replaceAll("\n{2,}", "\n\n");
+
+      // Trim spaces on each line
+      StringBuilder sb = new StringBuilder();
+      String[] lines = normalized.split("\n");
+      for (String line : lines) {
+        String trimmed = line.trim();
+        if (!trimmed.isEmpty()) {
+          sb.append(trimmed).append("\n\n"); // double newline between paragraphs
+        }
       }
+      return sb.toString().trim();
     }
+  }
 }
