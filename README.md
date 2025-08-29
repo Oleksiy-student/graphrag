@@ -51,15 +51,17 @@ What is a service dog?
 ---
 
 ## Roadmap / TODO
-- [ ] Use Qwen3 for retrieval  
+- [x] Use Qwen3 for retrieval  
 - [ ] Hook up **Supabase Vector Store** for persistent, cloud-based embeddings  
 - [ ] Hook up an **LLM for query processing** (use retrieved chunks as context → answer user queries)  
-- [ ] Improve **chunking & formatting** for better readability  
+- [ ] Improve **chunking & formatting** for better readability
+- [ ] Fix **graph generation** for better useablity and readability  
 - [ ] Add support for multiple embedding models  
 
 ---
 
 ## Version History
+- **v1.4** - Finalized using **Qwen3 embeddings** for retrieval and similarity score as well as the embedding insertion
 - **v1.3** – Switched to **Qwen3 embeddings** via Ollama.
 - **v1.0** – Added local saving of the embedings.
 - **v0.9** – Added local saving of the graph
