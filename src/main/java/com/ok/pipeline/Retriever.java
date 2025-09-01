@@ -5,7 +5,6 @@ import com.ok.store.*;
 import org.apache.tinkerpop.gremlin.structure.Vertex;
 import java.util.*;
 import java.util.logging.Logger;
-import java.util.logging.Level;
 
 public class Retriever {
   private static final Logger LOGGER = Logger.getLogger(Retriever.class.getName());

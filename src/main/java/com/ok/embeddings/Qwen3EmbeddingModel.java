@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.core.type.TypeReference;
 
 /**
- * EmbeddingModel implementation using Qwen-3 embeddings via Ollama local API.
+ * EmbeddingModel implementation using Qwen-3 embeddings via Ollama local API
  */
 public class Qwen3EmbeddingModel implements EmbeddingModel {
 
@@ -56,7 +56,10 @@ public class Qwen3EmbeddingModel implements EmbeddingModel {
       }
       return vec;
 
-    } catch (Exception e) {
+    } catch (IOException e) {
+      e.printStackTrace();
+      return new float[0];
+    } catch (InterruptedException e) {
       e.printStackTrace();
       return new float[0];
     }

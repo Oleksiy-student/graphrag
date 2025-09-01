@@ -7,8 +7,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
-import java.util.logging.Level;
-
 import org.apache.tinkerpop.gremlin.structure.Vertex;
 
 public class Workflow1 {
