@@ -3,67 +3,109 @@ package com.ok;
 import com.ok.embeddings.*;
 import com.ok.pipeline.*;
 import com.ok.store.*;
-import java.io.File;
+import com.ok.util.SupabaseHelper;
+
+import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.List;
+import java.io.InputStream;
+import java.net.URI;
+import java.net.http.*;
+import java.net.http.HttpRequest.BodyPublishers;
+import java.util.*;
 import java.util.logging.Logger;
-import org.apache.tinkerpop.gremlin.structure.Vertex;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Workflow1 {
   private static final Logger LOGGER = Logger.getLogger(Workflow1.class.getName());
+  private static final ObjectMapper MAPPER = new ObjectMapper();
 
-  public static void run(String pdfPath, String query) {
+  public static void run(String pdfFile, String query) {
+    Properties props = new Properties();
+    try (InputStream in = new FileInputStream("config.properties")) {
+      props.load(in);
+    } catch (IOException e) {
+      LOGGER.severe("Failed to load config.properties: " + e.getMessage());
+      return;
+    }
+
+    String SUPABASE_URL = props.getProperty("SUPABASE_URL");
+    String SUPABASE_API_KEY = props.getProperty("SUPABASE_API_KEY");
+    String SUPABASE_TABLE = props.getProperty("SUPABASE_TABLE");
+
     try {
+      SupabaseHelper.Config cfg = SupabaseHelper.loadConfig();
       // Extract PDF text
       PdfExtractor pdfExtractor = new PdfExtractor();
-      String docText = pdfExtractor.extract(new File(pdfPath));
+      String docText = pdfExtractor.extract(pdfFile);
 
       // Chunk document
       DocumentChunker chunker = new DocumentChunker(500); // 500 tokens per chunk
       List<String> chunks = chunker.chunk(docText);
       LOGGER.fine(() -> "Total chunks: " + chunks.size());
 
-      // Initialize embedding model and graph store
+      // Initialize embedding model
       EmbeddingModel model = new Qwen3EmbeddingModel();
-      GraphStore store = new TinkerGraphStore();
-      GraphBuilder builder = new GraphBuilder(store, model);
-      EntityExtractor ner = new EntityExtractor();
 
-      // Ingest chunks
-      builder.ingest("doc", chunks, ner);
+      // Prepare and insert into Supabase
+      HttpClient client = HttpClient.newHttpClient();
+      for (int i = 0; i < chunks.size(); i++) {
+        final int idx = i;
 
-      LOGGER.fine("--- Chunk embeddings ---");
-      for (Vertex c : store.chunks()) {
-        String cid = c.property("id").isPresent() ? c.property("id").value().toString() : c.id().toString();
-        if (c.property("embedding").isPresent()) {
-          float[] emb = (float[]) c.property("embedding").value();
-          double norm = 0;
-          for (float v : emb) norm += v * v;
-          double finalNorm = Math.sqrt(norm);
-          int length = emb.length;
-          LOGGER.fine(() -> String.format("Chunk %s: length=%d, norm=%.4f", cid, length, finalNorm));
+        String text = chunks.get(idx);
+        float[] embedding = model.embed(text);
+
+        Map<String, Object> metadata = new HashMap<>();
+        metadata.put("doc_id", pdfFile);
+        metadata.put("length", text.length());
+        metadata.put("author", "Unknown");
+        metadata.put("page_number", -1); // optional
+        metadata.put("created_at", new Date().toString());
+
+        Map<String, Object> row = new HashMap<>();
+        row.put("chunk_index", idx);
+        row.put("chunk_text", text);
+        row.put("metadata", metadata);
+        row.put("embedding", embeddingToList(embedding));
+
+        String jsonBody = MAPPER.writeValueAsString(row);
+
+        HttpRequest request = HttpRequest.newBuilder()
+            .uri(URI.create(SUPABASE_URL + "/rest/v1/" + SUPABASE_TABLE))
+            .header("apikey", SUPABASE_API_KEY)
+            .header("Authorization", "Bearer " + SUPABASE_API_KEY)
+            .header("Content-Type", "application/json")
+            .POST(BodyPublishers.ofString("[" + jsonBody + "]")) // insert as single-element array
+            .build();
+
+        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+        if (response.statusCode() >= 200 && response.statusCode() < 300) {
+          LOGGER.fine(() -> String.format("Inserted chunk %d successfully.", idx));
         } else {
-          LOGGER.fine(() -> "Chunk " + cid + ": no embedding!");
+          LOGGER.warning(() -> String.format("Failed to insert chunk %d: %s", idx, response.body()));
         }
       }
-      LOGGER.fine("--- End of embeddings ---");
 
-      // Save graph and embeddings
-      store.saveGraph("graph.xml");
-      store.saveEmbeddings("embeddings.json");
-
-      // Retrieve
-      Retriever retriever = new Retriever(store, model);
-      List<Retriever.Hit> hits = retriever.retrieve(query, 5, 2);
+      // Retrieve similar chunks from Supabase
+      List<SupabaseRetriever.Hit> hits = SupabaseHelper.retrieveHits(cfg, model, query, 5);
 
       // Compose answer
       AnswerComposer composer = new AnswerComposer();
-      String answer = composer.compose(query, hits, 1200);
-
+      String answer = composer.compose(query, SupabaseHelper.toRetrieverHits(hits), 1200);
       LOGGER.info(answer);
 
-    } catch (IOException e) {
+    } catch (IOException | InterruptedException e) {
+      e.printStackTrace();
+    } catch (Exception e) {
+      LOGGER.severe("Error during Supabase ingestion/retrieval: " + e.getMessage());
       e.printStackTrace();
     }
+  }
+
+  // Convert float[] embedding to List<Double> for Supabase pgvector
+  private static List<Double> embeddingToList(float[] emb) {
+    List<Double> list = new ArrayList<>(emb.length);
+    for (float f : emb) list.add((double) f);
+    return list;
   }
 }

@@ -3,28 +3,31 @@ package com.ok;
 import com.ok.embeddings.*;
 import com.ok.pipeline.*;
 import com.ok.store.*;
-import java.io.IOException;
+import com.ok.util.SupabaseHelper;
+
 import java.util.List;
+import java.util.logging.Logger;
 
 public class Workflow2 {
-    public static void run(String query) {
-        try {
-            GraphStore store = new TinkerGraphStore();
-            store.loadGraph("graph.xml");
-            store.loadEmbeddings("embeddings.json");
+  private static final Logger LOGGER = Logger.getLogger(Workflow2.class.getName());
 
-            EmbeddingModel model = new Qwen3EmbeddingModel();
-            Retriever retriever = new Retriever(store, model);
+  public static void run(String query) {
+    try {
+      SupabaseHelper.Config cfg = SupabaseHelper.loadConfig();
+      EmbeddingModel model = new Qwen3EmbeddingModel();
 
-            List<Retriever.Hit> hits = retriever.retrieve(query, 5, 2);
+      // Retrieve hits
+      List<SupabaseRetriever.Hit> hits = SupabaseHelper.retrieveHits(cfg, model, query, 5);
 
-            AnswerComposer composer = new AnswerComposer();
-            String answer = composer.compose(query, hits, 1200);
+      // Compose answer
+      AnswerComposer composer = new AnswerComposer();
+      String answer = composer.compose(query, SupabaseHelper.toRetrieverHits(hits), 1200);
 
-            System.out.println("\n=== DRAFT ANSWER ===\n" + answer);
+      LOGGER.info(answer);
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    } catch (Exception e) {
+      LOGGER.severe("Workflow2 failed: " + e.getMessage());
+      e.printStackTrace();
     }
+  }
 }

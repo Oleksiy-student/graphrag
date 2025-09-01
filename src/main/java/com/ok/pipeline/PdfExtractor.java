@@ -11,7 +11,9 @@ public class PdfExtractor {
    * Extracts text from a PDF while preserving paragraph breaks and headings.
    * Returns a single String where paragraphs are separated by double newlines.
    */
-  public String extract(File pdfFile) throws IOException {
+  public String extract(String fileName) throws IOException {
+    String folder = "data";
+    File pdfFile = new File(folder, fileName);
     try (PDDocument document = PDDocument.load(pdfFile)) {
       PDFTextStripper stripper = new PDFTextStripper();
       stripper.setLineSeparator("\n");
