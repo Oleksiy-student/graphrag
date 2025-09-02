@@ -44,10 +44,10 @@ public class SupabaseHelper {
     SupabaseRetriever retriever = new SupabaseRetriever(cfg.url, cfg.apiKey, cfg.table, model);
     List<SupabaseRetriever.Hit> hits = retriever.retrieve(query, topK);
 
-    LOGGER.info("\n--- Retrieved hits (preview first 100 chars) ---");
+    LOGGER.fine("\n--- Retrieved hits (preview first 100 chars) ---");
     for (SupabaseRetriever.Hit h : hits) {
       String preview = h.chunkText.length() > 100 ? h.chunkText.substring(0, 100) + "..." : h.chunkText;
-      LOGGER.info(String.format("Score: %.4f\nPreview: %s\nMetadata: %s\n",
+      LOGGER.fine(String.format("Score: %.4f\nPreview: %s\nMetadata: %s\n",
           h.score, preview, h.metadata));
     }
     return hits;
