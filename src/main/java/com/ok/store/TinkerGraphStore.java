@@ -13,7 +13,7 @@ public class TinkerGraphStore implements GraphStore {
   private static final ObjectMapper MAPPER = new ObjectMapper();
 
   public TinkerGraphStore() {
-      this.graph = TinkerGraph.open();
+    this.graph = TinkerGraph.open();
   }
 
   @Override
@@ -21,11 +21,19 @@ public class TinkerGraphStore implements GraphStore {
     return graph.addVertex(T.label, "entity", "name", name, "type", type);
   }
 
+  public Vertex addEntity(String name, String type, String wikidataId) {
+    Vertex v = graph.addVertex(T.label, "entity", "name", name, "type", type, "wikidata_id", wikidataId);
+    v.property("chunk_ids", new ArrayList<String>());
+    return v;
+  }
+
+
+
   @Override
   public Vertex addChunk(String id, String text, float[] embedding) {
     Vertex v = graph.addVertex(T.label, "chunk", T.id, id, "text", text);
     if (embedding != null && embedding.length > 0) {
-        v.property("embedding", embedding);
+      v.property("embedding", embedding);
     }
     return v;
   }
