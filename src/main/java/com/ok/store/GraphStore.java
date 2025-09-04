@@ -18,6 +18,7 @@ public interface GraphStore {
   void loadGraph(String filename) throws IOException;
   void saveEmbeddings(String filePath) throws IOException;
   void loadEmbeddings(String filePath) throws IOException;
+  void exportCytoscapeJson(String filePath) throws IOException;
 
   List<Vertex> chunks();
   List<Vertex> entities();

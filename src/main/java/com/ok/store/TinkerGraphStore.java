@@ -166,4 +166,38 @@ public class TinkerGraphStore implements GraphStore {
   public TinkerGraph getGraph() {
     return graph;
   }
+
+  public void exportCytoscapeJson(String filePath) throws IOException {
+    List<Map<String, Object>> elements = new ArrayList<>();
+
+    // Nodes
+    for (Vertex v : graph.traversal().V().toList()) {
+      Map<String, Object> data = new HashMap<>();
+      data.put("id", v.id().toString());
+      data.put("label", v.label());
+
+      // Add vertex properties
+      v.keys().forEach(k -> data.put(k, v.property(k).value()));
+
+      elements.add(Map.of("data", data));
+    }
+
+    // Edges
+    for (Edge e : graph.traversal().E().toList()) {
+      Map<String, Object> data = new HashMap<>();
+      data.put("id", e.id().toString());
+      data.put("source", e.outVertex().id().toString());
+      data.put("target", e.inVertex().id().toString());
+      data.put("label", e.label());
+
+      // Add edge properties
+      e.keys().forEach(k -> data.put(k, e.property(k).value()));
+
+      elements.add(Map.of("data", data));
+    }
+
+    Map<String, Object> root = Map.of("elements", elements);
+    ObjectMapper mapper = new ObjectMapper();
+    mapper.writerWithDefaultPrettyPrinter().writeValue(new File("data", filePath), root);
+  }
 }
