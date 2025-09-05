@@ -25,11 +25,23 @@ public class AnswerComposerTest {
   public void testComposeWithMockHttpClient() throws Exception {
     // Mock HttpClient
     HttpClient mockClient = Mockito.mock(HttpClient.class);
-    HttpResponse<String> mockResponse = Mockito.mock(HttpResponse.class);
+
+    // Parameterize HttpResponse<String> to remove unchecked warnings
+    @SuppressWarnings("unchecked")
+    HttpResponse<String> mockResponse = (HttpResponse<String>) Mockito.mock(HttpResponse.class);
+
     when(mockResponse.statusCode()).thenReturn(200);
     when(mockResponse.body()).thenReturn("{\"response\":\"GraphRAG augments retrieval with graph-based reasoning.\"}");
-    when(mockClient.send(any(HttpRequest.class), any(HttpResponse.BodyHandler.class)))
-        .thenReturn(mockResponse);
+
+    // Suppress unchecked because Mockito's any() loses the generic type
+    @SuppressWarnings("unchecked")
+    HttpResponse.BodyHandler<String> bodyHandler = (HttpResponse.BodyHandler<String>) Mockito.any(HttpResponse.BodyHandler.class);
+
+    when(mockClient.<String>send(
+            any(HttpRequest.class),
+            bodyHandler
+    )).thenReturn(mockResponse);
+
 
     // Load config.properties
     Properties props = new Properties();

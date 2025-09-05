@@ -24,7 +24,7 @@ public class AnswerComposer {
   public AnswerComposer() {
     this(HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(10)).build(),
         Config.get("OLLAMA_URL"),
-        Config.get("OLLAMA_MODEL"));
+        Config.get("DEEPSEEK_MODEL"));
   }
 
   // Default constructor uses real client + loads from config
@@ -86,7 +86,7 @@ public class AnswerComposer {
         }
       }
 
-      return "Draft Answer:\n" + finalOutput.toString();
+      return finalOutput.toString();
 
     } catch (Exception e) {
       // Fallback: generate local answer

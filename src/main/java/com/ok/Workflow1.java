@@ -79,14 +79,14 @@ public class Workflow1 {
       }
 
       // Retrieve similar chunks
-      List<SupabaseRetriever.Hit> hits = SupabaseHelper.retrieveHits(cfg, model, query, 5);
+      List<SupabaseRetriever.Hit> hits = SupabaseHelper.retrieveHits(cfg, model, query, 8);
 
       // Build entity graph with Wikidata
       GraphStore graphStore = new TinkerGraphStore();
       WikidataMatcher wikidata = new WikidataMatcher();
       GraphBuilder builder = new GraphBuilder(graphStore, model, wikidata);
 
-      builder.ingest(pdfFile, chunks, new EntityExtractor(), wikidata);
+      builder.ingest(pdfFile, chunks, new EntityExtractor());
 
       // Save graph to disk
       try {
@@ -102,7 +102,7 @@ public class Workflow1 {
       AnswerComposer composer = new AnswerComposer(
           HttpClient.newHttpClient(),
           props.getProperty("OLLAMA_URL"),
-          props.getProperty("OLLAMA_MODEL")
+          props.getProperty("DEEPSEEK_MODEL")
       );
 
       String answer = composer.compose(query, SupabaseHelper.toRetrieverHits(hits), 1200);

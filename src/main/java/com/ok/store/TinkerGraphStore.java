@@ -23,7 +23,7 @@ public class TinkerGraphStore implements GraphStore {
 
   public Vertex addEntity(String name, String type, String wikidataId) {
     Vertex v = graph.addVertex(T.label, "entity", "name", name, "type", type, "wikidata_id", wikidataId);
-    v.property("chunk_ids", new ArrayList<String>());
+    v.property("chunk_ids", new ArrayList<Integer>());
     return v;
   }
 

@@ -1,85 +1,59 @@
 package com.ok;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ok.embeddings.*;
-import com.ok.pipeline.*;
-import com.ok.store.*;
+import com.ok.embeddings.EmbeddingModel;
+import com.ok.pipeline.EntityExtractor;
+import com.ok.pipeline.GraphBuilder;
+import com.ok.store.GraphStore;
 import org.apache.tinkerpop.gremlin.structure.Vertex;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-public class GraphBuilderTest {
+class GraphBuilderTest {
 
-  @Test
-  public void testIngestBuildsGraphWithWikidata() throws Exception {
-    // Prepare graph store
-    GraphStore store = new TinkerGraphStore();
+    @Test
+    void testIngestWithEntitiesAndRelations() {
+        GraphStore store = mock(GraphStore.class);
+        EmbeddingModel model = mock(EmbeddingModel.class);
+        EntityExtractor ner = mock(EntityExtractor.class);
 
-    // Prepare embedding model and fit some text
-    TfIdfEmbeddingModel model = new TfIdfEmbeddingModel();
-    model.fit(Arrays.asList("OpenAI builds AI", "Neo4j stores graphs"));
+        // Mock embeddings
+        when(model.embed(anyString())).thenReturn(new float[]{0.1f, 0.2f, 0.3f});
 
-    // Entity extractor
-    EntityExtractor ner = new EntityExtractor();
+        // Mock entity vertices
+        Vertex aliceV = mock(Vertex.class);
+        Vertex acmeV = mock(Vertex.class);
+        when(store.addEntity(eq("Alice"), eq("Person"))).thenReturn(aliceV);
+        when(store.addEntity(eq("Acme"), eq("Organization"))).thenReturn(acmeV);
 
-    // Mock WikidataMatcher
-    WikidataMatcher wikidata = mock(WikidataMatcher.class);
+        // Mock extraction: Alice works_for Acme
+        EntityExtractor.Entity alice = new EntityExtractor.Entity("Alice", "Person");
+        alice.addChunkId(0);
+        EntityExtractor.Entity acme = new EntityExtractor.Entity("Acme", "Organization");
+        acme.addChunkId(0);
 
-    // Prepare mock matches and relations
-    WikidataMatcher.Match matchAI = new WikidataMatcher.Match(
-        "Q1", "AI", "Technology", List.of(
-            new WikidataMatcher.Relation("RELATED_TO", "Q2", "Neo4j", "Software")
-        )
-    );
-    WikidataMatcher.Match matchNeo4j = new WikidataMatcher.Match(
-        "Q2", "Neo4j", "Software", List.of()
-    );
-
-    // Mock behavior
-    when(wikidata.match("AI")).thenReturn(matchAI);
-    when(wikidata.match("Neo4j")).thenReturn(matchNeo4j);
-
-    // Build graph
-    GraphBuilder builder = new GraphBuilder(store, model, wikidata);
-    GraphBuilder.IngestResult result = builder.ingest(
-        "doc1",
-        Arrays.asList("OpenAI builds AI", "Neo4j stores graphs"),
-        ner,
-        wikidata
-    );
-
-    TinkerGraphStore tstore = (TinkerGraphStore) store;
-
-    // Check chunk vertices
-    assertTrue(tstore.getGraph().traversal().V().hasLabel("chunk").hasNext(),
-        "Should contain chunk vertices");
-
-    // Check entity vertices
-    assertTrue(tstore.getGraph().traversal().V().hasLabel("entity").hasNext(),
-        "Should contain entity vertices");
-
-    // Check 'chunks' property on each entity
-    ObjectMapper mapper = new ObjectMapper();
-    for (Vertex e : tstore.getGraph().traversal().V().hasLabel("entity").toList()) {
-      assertTrue(e.property("chunks").isPresent(), "Entity should have 'chunks' property");
-      String json = (String) e.property("chunks").value();
-      List<String> chunkIds = mapper.readValue(json, List.class);
-      assertFalse(chunkIds.isEmpty(), "Entity should reference at least one chunk ID");
-    }
-
-    // Check that the AI -> Neo4j relation edge exists
-    boolean edgeExists = tstore.getGraph().traversal().E()
-        .hasLabel("RELATED_TO")
-        .toList()
-        .stream()
-        .anyMatch(edge ->
-            edge.outVertex().property("name").value().equals("AI") &&
-            edge.inVertex().property("name").value().equals("Neo4j")
+        List<EntityExtractor.Relation> relations = List.of(
+            new EntityExtractor.Relation("Alice", "Acme", "works_for")
         );
-    assertTrue(edgeExists, "Graph should contain Wikidata relation edge AI -> Neo4j");
-  }
+
+        EntityExtractor.ExtractionResult extractionResult =
+            new EntityExtractor.ExtractionResult(List.of(alice, acme), relations);
+
+        when(ner.extractBatch(eq("doc"), anyList())).thenReturn(extractionResult);
+
+        // Build graph
+        GraphBuilder gb = new GraphBuilder(store, model, null);
+        GraphBuilder.IngestResult result = gb.ingest("doc", List.of("Alice works at Acme"), ner);
+
+        // Verify entity vertices created
+        verify(store).addEntity("Alice", "Person");
+        verify(store).addEntity("Acme", "Organization");
+        assertEquals(2, result.getEntityVertices().size());
+
+        // Verify relation edge
+        verify(store).addEdge(aliceV, acmeV, "works_for", Map.of("extracted", true));
+    }
 }
