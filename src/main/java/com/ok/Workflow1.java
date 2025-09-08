@@ -13,10 +13,15 @@ import java.util.*;
 import java.util.logging.Logger;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * Template Method Pattern implementation for full document processing workflow.
+ * Defines the skeleton of the algorithm: extract -> chunk -> embed -> store -> retrieve -> compose.
+ */
 public class Workflow1 {
   private static final Logger LOGGER = Logger.getLogger(Workflow1.class.getName());
   private static final ObjectMapper MAPPER = new ObjectMapper();
 
+  // Load configuration properties
   public static void run(String pdfFile, String query) {
     Properties props = new Properties();
     try (InputStream in = new FileInputStream("config.properties")) {
@@ -33,76 +38,79 @@ public class Workflow1 {
     try {
       SupabaseHelper.Config cfg = SupabaseHelper.loadConfig();
 
-      // Extract PDF text
+      // Extract text from PDF document
       PdfExtractor pdfExtractor = new PdfExtractor();
       String docText = pdfExtractor.extract(pdfFile);
 
-      // Chunk document
+      // Split document into manageable chunks
       DocumentChunker chunker = new DocumentChunker(250);
       List<String> chunks = chunker.chunk(docText);
       LOGGER.fine(() -> "Total chunks: " + chunks.size());
 
-      // Initialize embedding model
+      // Initialize embedding model for vector representations
       EmbeddingModel model = new Qwen3EmbeddingModel();
 
-      // Ingest into Supabase
+      // Store chunks and embeddings in Supabase vector database
       HttpClient client = HttpClient.newHttpClient();
       for (int i = 0; i < chunks.size(); i++) {
-        final int idx = i;
-        String text = chunks.get(idx);
-        float[] embedding = model.embed(text);
+      final int idx = i;
+      String text = chunks.get(idx);
+      float[] embedding = model.embed(text);
 
-        Map<String, Object> metadata = new HashMap<>();
-        metadata.put("doc", pdfFile);
-        metadata.put("length", text.length());
-        metadata.put("author", "Unknown");
-        metadata.put("page_number", -1);
-        metadata.put("created_at", new Date().toString());
+      // Build metadata for each chunk
+      Map<String, Object> metadata = new HashMap<>();
+      metadata.put("doc", pdfFile);
+      metadata.put("length", text.length());
+      metadata.put("author", "Unknown");
+      metadata.put("page_number", -1);
+      metadata.put("created_at", new Date().toString());
 
-        Map<String, Object> row = new LinkedHashMap<>();
-        row.put("chunk_index", idx);
-        row.put("chunk_text", text);
-        row.put("metadata", metadata);
-        row.put("embedding", embeddingToList(embedding));
+      // Create database row with embedding vector
+      Map<String, Object> row = new LinkedHashMap<>();
+      row.put("chunk_index", idx);
+      row.put("chunk_text", text);
+      row.put("metadata", metadata);
+      row.put("embedding", embeddingToList(embedding));
 
-        String jsonBody = MAPPER.writeValueAsString(row);
+      String jsonBody = MAPPER.writeValueAsString(row);
 
-        HttpRequest request = HttpRequest.newBuilder()
-            .uri(URI.create(SUPABASE_URL + "/rest/v1/" + SUPABASE_TABLE))
-            .header("apikey", SUPABASE_API_KEY)
-            .header("Authorization", "Bearer " + SUPABASE_API_KEY)
-            .header("Content-Type", "application/json")
-            .POST(HttpRequest.BodyPublishers.ofString("[" + jsonBody + "]"))
-            .build();
+      // Insert into Supabase via REST API
+      HttpRequest request = HttpRequest.newBuilder()
+        .uri(URI.create(SUPABASE_URL + "/rest/v1/" + SUPABASE_TABLE))
+        .header("apikey", SUPABASE_API_KEY)
+        .header("Authorization", "Bearer " + SUPABASE_API_KEY)
+        .header("Content-Type", "application/json")
+        .POST(HttpRequest.BodyPublishers.ofString("[" + jsonBody + "]"))
+        .build();
 
-        client.send(request, HttpResponse.BodyHandlers.ofString());
+      client.send(request, HttpResponse.BodyHandlers.ofString());
       }
 
-      // Retrieve similar chunks
+      // Retrieve semantically similar chunks for the query
       List<SupabaseRetriever.Hit> hits = SupabaseHelper.retrieveHits(cfg, model, query, 8);
 
-      // Build entity graph with Wikidata
+      // Build knowledge graph with entity extraction and Wikidata matching
       GraphStore graphStore = new TinkerGraphStore();
       WikidataMatcher wikidata = new WikidataMatcher();
       GraphBuilder builder = new GraphBuilder(graphStore, model, wikidata);
 
       builder.ingest(pdfFile, chunks, new EntityExtractor());
 
-      // Save graph to disk
+      // Persist graph to disk for future use
       try {
-        ((TinkerGraphStore) graphStore).saveGraph("graph_document.graphml");
-         LOGGER.fine("Graph saved successfully.");
-         graphStore.exportCytoscapeJson("graph.json");
-         LOGGER.fine("Graph exported to graph.json (Cytoscape.js format)");
+      ((TinkerGraphStore) graphStore).saveGraph("graph_document.graphml");
+      LOGGER.fine("Graph saved successfully.");
+      graphStore.exportCytoscapeJson("graph.json");
+      LOGGER.fine("Graph exported to graph.json (Cytoscape.js format)");
       } catch (IOException e) {
-         LOGGER.severe("Failed to save graph: " + e.getMessage());
+      LOGGER.severe("Failed to save graph: " + e.getMessage());
       }
 
-      // Compose answer
+      // Generate final answer using retrieved context
       AnswerComposer composer = new AnswerComposer(
-          HttpClient.newHttpClient(),
-          props.getProperty("OLLAMA_URL"),
-          props.getProperty("DEEPSEEK_MODEL")
+        HttpClient.newHttpClient(),
+        props.getProperty("OLLAMA_URL"),
+        props.getProperty("DEEPSEEK_MODEL")
       );
 
       String answer = composer.compose(query, SupabaseHelper.toRetrieverHits(hits), 1200);
@@ -114,9 +122,12 @@ public class Workflow1 {
     }
   }
 
+  /**
+     * Convert float array to List<Double> for JSON serialization.
+     */
   private static List<Double> embeddingToList(float[] emb) {
-    List<Double> list = new ArrayList<>(emb.length);
-    for (float f : emb) list.add((double) f);
-    return list;
+  List<Double> list = new ArrayList<>(emb.length);
+  for (float f : emb) list.add((double) f);
+  return list;
   }
 }

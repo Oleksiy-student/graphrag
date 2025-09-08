@@ -1,62 +1,522 @@
 {
   "elements" : [ {
     "data" : {
-      "name" : "Disease",
+      "name" : "Closings",
       "chunk_ids" : [ 4 ],
       "id" : "0",
-      "label" : "entity",
-      "type" : "Person"
-    }
-  }, {
-    "data" : {
-      "name" : "1880s",
-      "chunk_ids" : [ 1 ],
-      "id" : "128",
-      "label" : "entity",
-      "type" : "Year"
-    }
-  }, {
-    "data" : {
-      "name" : "Group Affected",
-      "chunk_ids" : [ 4 ],
-      "id" : "256",
       "label" : "entity",
       "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "48",
-      "chunk_ids" : [ 0 ],
-      "id" : "4",
+      "name" : "HIV/AIDS",
+      "chunk_ids" : [ 1, 3 ],
+      "id" : "256",
       "label" : "entity",
-      "type" : "Year"
+      "type" : "Organization"
     }
   }, {
     "data" : {
-      "name" : "Death",
-      "chunk_ids" : [ 4 ],
-      "id" : "132",
+      "name" : "Hundreds of thousands",
+      "chunk_ids" : [ 3 ],
+      "id" : "4",
       "label" : "entity",
       "type" : "Quantity"
     }
   }, {
     "data" : {
-      "name" : "2015",
+      "name" : "a",
+      "chunk_ids" : [ 1 ],
       "id" : "260",
       "label" : "entity",
-      "type" : "Thing"
+      "type" : "Person"
     }
   }, {
     "data" : {
-      "name" : "1665-1666",
+      "name" : "Pre-modern world",
       "chunk_ids" : [ 0 ],
       "id" : "8",
+      "label" : "entity",
+      "type" : "Organization"
+    }
+  }, {
+    "data" : {
+      "name" : "USA",
+      "chunk_ids" : [ 3 ],
+      "id" : "264",
+      "label" : "entity",
+      "type" : "Location"
+    }
+  }, {
+    "data" : {
+      "name" : "Rosenberg",
+      "chunk_ids" : [ 0 ],
+      "id" : "12",
+      "label" : "entity",
+      "type" : "Person"
+    }
+  }, {
+    "data" : {
+      "name" : "disease",
+      "chunk_ids" : [ 4 ],
+      "id" : "268",
+      "label" : "entity",
+      "type" : "Organism"
+    }
+  }, {
+    "data" : {
+      "name" : "England",
+      "chunk_ids" : [ 4 ],
+      "id" : "16",
+      "label" : "entity",
+      "type" : "Location"
+    }
+  }, {
+    "data" : {
+      "name" : "reaction",
+      "chunk_ids" : [ 4 ],
+      "id" : "272",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "Ryan White",
+      "chunk_ids" : [ 1 ],
+      "id" : "20",
+      "label" : "entity",
+      "type" : "Person"
+    }
+  }, {
+    "data" : {
+      "name" : "People",
+      "chunk_ids" : [ 1 ],
+      "id" : "276",
+      "label" : "entity",
+      "type" : "Person"
+    }
+  }, {
+    "data" : {
+      "name" : "affectsing",
+      "chunk_ids" : [ 1 ],
+      "id" : "24",
+      "label" : "entity",
+      "type" : "EventYear"
+    }
+  }, {
+    "data" : {
+      "name" : "affects",
+      "chunk_ids" : [ 1 ],
+      "id" : "280",
+      "label" : "entity",
+      "type" : "EventYear"
+    }
+  }, {
+    "data" : {
+      "name" : "poured",
+      "chunk_ids" : [ 1 ],
+      "id" : "28",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "Families",
+      "chunk_ids" : [ 2 ],
+      "id" : "284",
+      "label" : "entity",
+      "type" : "Person"
+    }
+  }, {
+    "data" : {
+      "name" : "developed",
+      "chunk_ids" : [ 1 ],
+      "id" : "32",
+      "label" : "entity",
+      "type" : "Organization"
+    }
+  }, {
+    "data" : {
+      "name" : "City with streets and buildings",
+      "chunk_ids" : [ 2 ],
+      "id" : "288",
+      "label" : "entity",
+      "type" : "Location"
+    }
+  }, {
+    "data" : {
+      "name" : "plague",
+      "chunk_ids" : [ 4 ],
+      "id" : "36",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "Population decline",
+      "chunk_ids" : [ 0 ],
+      "id" : "292",
+      "label" : "entity",
+      "type" : "Change"
+    }
+  }, {
+    "data" : {
+      "name" : "Viking Age",
+      "chunk_ids" : [ 0 ],
+      "id" : "40",
+      "label" : "entity",
+      "type" : "Organization"
+    }
+  }, {
+    "data" : {
+      "name" : "Spain",
+      "chunk_ids" : [ 3 ],
+      "id" : "296",
+      "label" : "entity",
+      "type" : "Organization"
+    }
+  }, {
+    "data" : {
+      "name" : "lauro martines",
+      "chunk_ids" : [ 1 ],
+      "id" : "44",
+      "label" : "entity",
+      "type" : "Name"
+    }
+  }, {
+    "data" : {
+      "name" : "the",
+      "chunk_ids" : [ 1 ],
+      "id" : "300",
+      "label" : "entity",
+      "type" : "Organization"
+    }
+  }, {
+    "data" : {
+      "name" : "whoever",
+      "chunk_ids" : [ 1 ],
+      "id" : "48",
+      "label" : "entity",
+      "type" : "Person"
+    }
+  }, {
+    "data" : {
+      "name" : "with",
+      "chunk_ids" : [ 1 ],
+      "id" : "304",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "eventYear",
+      "chunk_ids" : [ 1 ],
+      "id" : "52",
+      "label" : "entity",
+      "type" : "EventYear"
+    }
+  }, {
+    "data" : {
+      "name" : "675,000",
+      "chunk_ids" : [ 3 ],
+      "id" : "308",
+      "label" : "entity",
+      "type" : "Quantity"
+    }
+  }, {
+    "data" : {
+      "name" : "from",
+      "chunk_ids" : [ 1 ],
+      "id" : "56",
+      "label" : "entity",
+      "type" : "Organization"
+    }
+  }, {
+    "data" : {
+      "name" : "Year",
+      "chunk_ids" : [ 0 ],
+      "id" : "312",
       "label" : "entity",
       "type" : "Year"
     }
   }, {
     "data" : {
-      "name" : "American City",
+      "name" : "because",
+      "chunk_ids" : [ 1 ],
+      "id" : "60",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "coinciding",
+      "chunk_ids" : [ 1 ],
+      "id" : "316",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "events",
+      "chunk_ids" : [ 1 ],
+      "id" : "64",
+      "label" : "entity",
+      "type" : "Location"
+    }
+  }, {
+    "data" : {
+      "name" : "Event",
+      "chunk_ids" : [ 0 ],
+      "id" : "320",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "centuries",
+      "chunk_ids" : [ 4 ],
+      "id" : "68",
+      "label" : "entity",
+      "type" : "Year"
+    }
+  }, {
+    "data" : {
+      "name" : "new cold",
+      "chunk_ids" : [ 3 ],
+      "id" : "324",
+      "label" : "entity",
+      "type" : "Disease"
+    }
+  }, {
+    "data" : {
+      "name" : "759 Philadelphians",
+      "chunk_ids" : [ 3 ],
+      "id" : "72",
+      "label" : "entity",
+      "type" : "Location"
+    }
+  }, {
+    "data" : {
+      "name" : "Quantitative records",
+      "chunk_ids" : [ 0 ],
+      "id" : "328",
+      "label" : "entity",
+      "type" : "Quantity"
+    }
+  }, {
+    "data" : {
+      "name" : "The crews",
+      "chunk_ids" : [ 0 ],
+      "id" : "76",
+      "label" : "entity",
+      "type" : "Person"
+    }
+  }, {
+    "data" : {
+      "name" : "Infectious diseases",
+      "id" : "332",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "Epidemic",
+      "id" : "335",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "in",
+      "chunk_ids" : [ 1 ],
+      "id" : "80",
+      "label" : "entity",
+      "type" : "Person"
+    }
+  }, {
+    "data" : {
+      "name" : "occur",
+      "chunk_ids" : [ 1 ],
+      "id" : "84",
+      "label" : "entity",
+      "type" : "Quantity"
+    }
+  }, {
+    "data" : {
+      "name" : "epidemic",
+      "chunk_ids" : [ 3, 4 ],
+      "id" : "88",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "As",
+      "id" : "346",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "endemic disease",
+      "chunk_ids" : [ 3 ],
+      "id" : "92",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "World War I",
+      "id" : "349",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "Philadelphians",
+      "chunk_ids" : [ 3 ],
+      "id" : "96",
+      "label" : "entity",
+      "type" : "Location"
+    }
+  }, {
+    "data" : {
+      "name" : "Spreads the pandemic",
+      "id" : "354",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "Rats",
+      "chunk_ids" : [ 1 ],
+      "id" : "100",
+      "label" : "entity",
+      "type" : "Person"
+    }
+  }, {
+    "data" : {
+      "name" : "The pandemic",
+      "id" : "358",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "an",
+      "chunk_ids" : [ 1 ],
+      "id" : "104",
+      "label" : "entity",
+      "type" : "Organization"
+    }
+  }, {
+    "data" : {
+      "name" : "pathogenicity",
+      "id" : "363",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "cultural",
+      "chunk_ids" : [ 4 ],
+      "id" : "108",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "arrows missing some",
+      "id" : "366",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "Virus",
+      "chunk_ids" : [ 1 ],
+      "id" : "112",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "1348",
+      "chunk_ids" : [ 3 ],
+      "id" : "116",
+      "label" : "entity",
+      "type" : "Year"
+    }
+  }, {
+    "data" : {
+      "name" : "Reaction",
+      "id" : "372",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "How",
+      "chunk_ids" : [ 2 ],
+      "id" : "120",
+      "label" : "entity",
+      "type" : "Description"
+    }
+  }, {
+    "data" : {
+      "name" : "Affecting",
+      "id" : "379",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "as",
+      "chunk_ids" : [ 1 ],
+      "id" : "124",
+      "label" : "entity",
+      "type" : "Quantity"
+    }
+  }, {
+    "data" : {
+      "name" : "Aflueneza",
+      "id" : "382",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "The second pandemic plague recurred",
+      "chunk_ids" : [ 4 ],
+      "id" : "128",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "Mathew Brady",
+      "id" : "386",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "Location (AM Midwest)",
+      "chunk_ids" : [ 1 ],
+      "id" : "132",
+      "label" : "entity",
+      "type" : "Location"
+    }
+  }, {
+    "data" : {
+      "name" : "Charlie Mopic",
+      "id" : "389",
+      "label" : "entity",
+      "type" : "Thing"
+    }
+  }, {
+    "data" : {
+      "name" : "London",
       "chunk_ids" : [ 3 ],
       "id" : "136",
       "label" : "entity",
@@ -64,854 +524,534 @@
     }
   }, {
     "data" : {
-      "name" : " European",
-      "id" : "264",
+      "name" : "Influenza",
+      "id" : "393",
       "label" : "entity",
       "type" : "Thing"
     }
   }, {
     "data" : {
-      "name" : " Million",
-      "id" : "267",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Curtis",
-      "chunk_ids" : [ 3 ],
-      "id" : "12",
-      "label" : "entity",
-      "type" : "Soldier/Man"
-    }
-  }, {
-    "data" : {
-      "name" : "United States Public Health Organization",
-      "chunk_ids" : [ 1 ],
+      "name" : "Fokestone",
+      "chunk_ids" : [ 4 ],
       "id" : "140",
       "label" : "entity",
-      "type" : "Organization"
+      "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "disease",
-      "id" : "271",
+      "name" : "1000000",
+      "id" : "397",
       "label" : "entity",
       "type" : "Thing"
     }
   }, {
     "data" : {
-      "name" : "Year 2015",
+      "name" : "Pathogen",
       "chunk_ids" : [ 1 ],
-      "id" : "16",
-      "label" : "entity",
-      "type" : "Year"
-    }
-  }, {
-    "data" : {
-      "name" : "Europeans",
-      "chunk_ids" : [ 2 ],
       "id" : "144",
       "label" : "entity",
       "type" : "Organization"
     }
   }, {
     "data" : {
-      "name" : "isolation",
-      "id" : "274",
+      "name" : "excess deaths",
+      "id" : "401",
       "label" : "entity",
       "type" : "Thing"
     }
   }, {
     "data" : {
-      "name" : "United Nations",
+      "name" : "aid",
       "chunk_ids" : [ 1 ],
-      "id" : "20",
-      "label" : "entity",
-      "type" : "Organization"
-    }
-  }, {
-    "data" : {
-      "name" : "Organization",
-      "chunk_ids" : [ 2 ],
       "id" : "148",
       "label" : "entity",
       "type" : "Organization"
     }
   }, {
     "data" : {
-      "name" : "vaccination",
-      "id" : "278",
+      "name" : "affected population",
+      "id" : "405",
       "label" : "entity",
       "type" : "Thing"
     }
   }, {
     "data" : {
-      "name" : "Rosenberg",
-      "chunk_ids" : [ 0 ],
-      "id" : "24",
-      "label" : "entity",
-      "type" : "Organization"
-    }
-  }, {
-    "data" : {
-      "name" : "Rats, especially the black",
+      "name" : "yearly",
       "chunk_ids" : [ 1 ],
       "id" : "152",
       "label" : "entity",
-      "type" : "Organization"
+      "type" : "EventYear"
     }
   }, {
     "data" : {
-      "name" : "school_closures",
-      "id" : "282",
+      "name" : "affected_by",
+      "id" : "411",
       "label" : "entity",
       "type" : "Thing"
     }
   }, {
     "data" : {
-      "name" : "Florence",
-      "chunk_ids" : [ 3 ],
-      "id" : "28",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "United States",
-      "chunk_ids" : [ 2 ],
+      "name" : "who",
+      "chunk_ids" : [ 1 ],
       "id" : "156",
       "label" : "entity",
-      "type" : "Location"
+      "type" : "Person"
     }
   }, {
     "data" : {
-      "name" : "North America",
-      "chunk_ids" : [ 1 ],
-      "id" : "32",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "101 Infectious Diseases",
-      "chunk_ids" : [ 0 ],
+      "name" : "plague spreading",
+      "chunk_ids" : [ 3 ],
       "id" : "160",
       "label" : "entity",
-      "type" : "Organization/Entity"
+      "type" : "Event"
     }
   }, {
     "data" : {
-      "name" : "Influenced_by",
-      "id" : "290",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "1650 focus on the success of cordonssanitaires",
-      "chunk_ids" : [ 0 ],
-      "id" : "36",
-      "label" : "entity",
-      "type" : "Year"
-    }
-  }, {
-    "data" : {
-      "name" : "known plague ports",
-      "chunk_ids" : [ 0 ],
+      "name" : "regions",
+      "chunk_ids" : [ 1 ],
       "id" : "164",
       "label" : "entity",
       "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "Population growth",
-      "id" : "293",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "affected populations",
+      "name" : "Organization",
       "chunk_ids" : [ 0 ],
-      "id" : "40",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "Europe Union",
-      "chunk_ids" : [ 1 ],
       "id" : "168",
       "label" : "entity",
       "type" : "Organization"
     }
   }, {
     "data" : {
-      "name" : "Shibasaburo Kitasato",
-      "id" : "297",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "outbreak",
+      "name" : "death",
       "chunk_ids" : [ 4 ],
-      "id" : "44",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "Joseph P. Byrne",
-      "chunk_ids" : [ 0 ],
       "id" : "172",
       "label" : "entity",
-      "type" : "Person"
+      "type" : "Event"
     }
   }, {
     "data" : {
-      "name" : "Alexandre Yersin",
-      "id" : "301",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Boccaccio's Florence",
-      "chunk_ids" : [ 0 ],
-      "id" : "48",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "Huts",
-      "chunk_ids" : [ 4 ],
+      "name" : "In",
+      "chunk_ids" : [ 1 ],
       "id" : "176",
       "label" : "entity",
       "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "flu pandemic",
-      "id" : "305",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Monastery",
-      "chunk_ids" : [ 4 ],
-      "id" : "52",
-      "label" : "entity",
-      "type" : "Entity"
-    }
-  }, {
-    "data" : {
-      "name" : "World Health Organization (WHO)",
+      "name" : "affect",
       "chunk_ids" : [ 1 ],
       "id" : "180",
-      "label" : "entity",
-      "type" : "Organization"
-    }
-  }, {
-    "data" : {
-      "name" : "cholera pandemic",
-      "id" : "309",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Epidemic",
-      "chunk_ids" : [ 0 ],
-      "id" : "56",
       "label" : "entity",
       "type" : "Event"
     }
   }, {
     "data" : {
-      "name" : "Plague House",
-      "chunk_ids" : [ 4 ],
+      "name" : "part",
+      "chunk_ids" : [ 1 ],
       "id" : "184",
       "label" : "entity",
       "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "pandemic caused by flu",
-      "id" : "313",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "759 Philadelphians",
-      "chunk_ids" : [ 3 ],
-      "id" : "60",
-      "label" : "entity",
-      "type" : "Quantity"
-    }
-  }, {
-    "data" : {
-      "name" : "China",
-      "chunk_ids" : [ 1 ],
+      "name" : "suspect places",
+      "chunk_ids" : [ 0 ],
       "id" : "188",
       "label" : "entity",
       "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "Alice",
-      "id" : "319",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "The crews",
-      "chunk_ids" : [ 0 ],
-      "id" : "64",
-      "label" : "entity",
-      "type" : "Person"
-    }
-  }, {
-    "data" : {
-      "name" : "Charlie Mopic",
+      "name" : "affecting",
       "chunk_ids" : [ 1 ],
       "id" : "192",
       "label" : "entity",
-      "type" : "Person"
+      "type" : "Event"
     }
   }, {
     "data" : {
-      "name" : "911",
-      "id" : "323",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "epidemic",
-      "chunk_ids" : [ 4 ],
-      "id" : "68",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "1918",
-      "chunk_ids" : [ 3 ],
+      "name" : "facing",
+      "chunk_ids" : [ 1 ],
       "id" : "196",
       "label" : "entity",
-      "type" : "Year"
+      "type" : "Event"
     }
   }, {
     "data" : {
-      "name" : "In part",
-      "id" : "327",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Y. pestis",
+      "name" : "Pandemic",
       "chunk_ids" : [ 0 ],
-      "id" : "72",
-      "label" : "entity",
-      "type" : "Year"
-    }
-  }, {
-    "data" : {
-      "name" : "Miasma",
-      "chunk_ids" : [ 4 ],
       "id" : "200",
       "label" : "entity",
-      "type" : "Entity"
-    }
-  }, {
-    "data" : {
-      "name" : "poured in",
-      "id" : "331",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Event Cascading effects",
-      "chunk_ids" : [ 1 ],
-      "id" : "76",
-      "label" : "entity",
       "type" : "Event"
     }
   }, {
     "data" : {
-      "name" : "Early modern pastor",
+      "name" : "global",
       "chunk_ids" : [ 1 ],
       "id" : "204",
-      "label" : "entity",
-      "type" : "Person"
-    }
-  }, {
-    "data" : {
-      "name" : "leaving large",
-      "id" : "335",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Global Regions",
-      "chunk_ids" : [ 1 ],
-      "id" : "80",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "Black Death",
-      "chunk_ids" : [ 0 ],
-      "id" : "208",
-      "label" : "entity",
-      "type" : "Event"
-    }
-  }, {
-    "data" : {
-      "name" : "2014 ebola outbreak in Africa",
-      "chunk_ids" : [ 0 ],
-      "id" : "84",
-      "label" : "entity",
-      "type" : "Year"
-    }
-  }, {
-    "data" : {
-      "name" : "Acme Corp",
-      "chunk_ids" : [ 2 ],
-      "id" : "212",
       "label" : "entity",
       "type" : "Organization"
     }
   }, {
     "data" : {
-      "name" : "Location (eubacteria) and epidermohemophilic paraplegias",
-      "chunk_ids" : [ 1 ],
-      "id" : "88",
+      "name" : "known plague ports",
+      "chunk_ids" : [ 0 ],
+      "id" : "208",
       "label" : "entity",
       "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "United Kingdom",
-      "chunk_ids" : [ 1 ],
+      "name" : "Closing",
+      "chunk_ids" : [ 4 ],
+      "id" : "212",
+      "label" : "entity",
+      "type" : "Event"
+    }
+  }, {
+    "data" : {
+      "name" : "Moscow",
+      "chunk_ids" : [ 4 ],
       "id" : "216",
       "label" : "entity",
       "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "Dead",
-      "id" : "344",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Organizations",
-      "id" : "347",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "City",
-      "chunk_ids" : [ 3 ],
-      "id" : "92",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "Mass grave",
-      "chunk_ids" : [ 4 ],
+      "name" : "world",
+      "chunk_ids" : [ 1 ],
       "id" : "220",
       "label" : "entity",
       "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "European",
-      "chunk_ids" : [ 2 ],
-      "id" : "96",
-      "label" : "entity",
-      "type" : "Organization"
-    }
-  }, {
-    "data" : {
-      "name" : "whooping cough",
-      "chunk_ids" : [ 4 ],
+      "name" : "of",
+      "chunk_ids" : [ 1 ],
       "id" : "224",
       "label" : "entity",
       "type" : "Event"
     }
   }, {
     "data" : {
-      "name" : "Location",
-      "id" : "352",
-      "label" : "entity",
-      "type" : "Thing"
-    }
-  }, {
-    "data" : {
-      "name" : "Wellspring Foundation",
-      "chunk_ids" : [ 1 ],
-      "id" : "100",
-      "label" : "entity",
-      "type" : "Organization"
-    }
-  }, {
-    "data" : {
-      "name" : "Nineteenth-century Vibrio cholera bacteria found new home",
-      "chunk_ids" : [ 0 ],
+      "name" : "epicenter",
+      "chunk_ids" : [ 4 ],
       "id" : "228",
       "label" : "entity",
-      "type" : "Quantity"
+      "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "1348",
-      "chunk_ids" : [ 3 ],
-      "id" : "104",
-      "label" : "entity",
-      "type" : "Year"
-    }
-  }, {
-    "data" : {
-      "name" : "Year",
-      "chunk_ids" : [ 3 ],
+      "name" : "1918",
+      "chunk_ids" : [ 1, 2, 3 ],
       "id" : "232",
       "label" : "entity",
       "type" : "Year"
     }
   }, {
     "data" : {
-      "name" : "Hospitals",
+      "name" : "Population",
       "chunk_ids" : [ 4 ],
-      "id" : "108",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "Influenza",
-      "chunk_ids" : [ 2 ],
       "id" : "236",
       "label" : "entity",
-      "type" : "Event"
+      "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "Infectious diseases",
-      "chunk_ids" : [ 0 ],
-      "id" : "112",
-      "label" : "entity",
-      "type" : "Organization/Entity"
-    }
-  }, {
-    "data" : {
-      "name" : "Mathew Brady",
-      "chunk_ids" : [ 1 ],
+      "name" : "France",
+      "chunk_ids" : [ 3, 4 ],
       "id" : "240",
       "label" : "entity",
-      "type" : "Person"
+      "type" : "Organization"
     }
   }, {
     "data" : {
-      "name" : "Barry",
-      "chunk_ids" : [ 3 ],
-      "id" : "116",
-      "label" : "entity",
-      "type" : "Person"
-    }
-  }, {
-    "data" : {
-      "name" : "Event",
-      "chunk_ids" : [ 3 ],
+      "name" : "at least",
+      "chunk_ids" : [ 1 ],
       "id" : "244",
       "label" : "entity",
-      "type" : "Event"
+      "type" : "Location"
     }
   }, {
     "data" : {
-      "name" : "Chickens",
-      "chunk_ids" : [ 1 ],
-      "id" : "120",
-      "label" : "entity",
-      "type" : "Quantity"
-    }
-  }, {
-    "data" : {
-      "name" : "Cholera",
-      "chunk_ids" : [ 2 ],
+      "name" : "Schools",
+      "chunk_ids" : [ 4 ],
       "id" : "248",
       "label" : "entity",
+      "type" : "Organization"
+    }
+  }, {
+    "data" : {
+      "name" : "on",
+      "chunk_ids" : [ 1 ],
+      "id" : "252",
+      "label" : "entity",
       "type" : "Event"
     }
   }, {
     "data" : {
-      "name" : "London",
-      "chunk_ids" : [ 3 ],
-      "id" : "124",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "name" : "Cases",
-      "chunk_ids" : [ 0 ],
-      "id" : "252",
-      "label" : "entity",
-      "type" : "Location"
-    }
-  }, {
-    "data" : {
-      "id" : "322",
-      "source" : "319",
-      "label" : "works_for",
+      "id" : "385",
+      "source" : "379",
+      "label" : "Quantity",
       "extracted" : true,
-      "target" : "212"
+      "target" : "382"
     }
   }, {
     "data" : {
-      "id" : "326",
-      "source" : "72",
-      "label" : "affectedPopulation",
+      "id" : "392",
+      "source" : "386",
+      "label" : "Person",
       "extracted" : true,
-      "target" : "323"
+      "target" : "389"
     }
   }, {
     "data" : {
-      "id" : "263",
-      "source" : "152",
-      "label" : "affectsPopulation",
-      "extracted" : true,
-      "target" : "260"
-    }
-  }, {
-    "data" : {
-      "id" : "330",
-      "source" : "327",
-      "label" : "temporarily_facing_worlds",
-      "extracted" : true,
-      "target" : "156"
-    }
-  }, {
-    "data" : {
-      "id" : "270",
-      "source" : "264",
-      "label" : "year",
-      "extracted" : true,
-      "target" : "267"
-    }
-  }, {
-    "data" : {
-      "id" : "334",
-      "source" : "331",
-      "label" : "temporarily_facing_worlds",
-      "extracted" : true,
-      "target" : "216"
-    }
-  }, {
-    "data" : {
-      "id" : "338",
-      "source" : "335",
-      "label" : "temporarily_facing_worlds",
-      "extracted" : true,
-      "target" : "156"
-    }
-  }, {
-    "data" : {
-      "id" : "339",
-      "source" : "92",
-      "label" : "location",
-      "extracted" : true,
-      "target" : "124"
-    }
-  }, {
-    "data" : {
-      "id" : "340",
-      "source" : "124",
-      "label" : "year",
+      "id" : "396",
+      "source" : "393",
+      "label" : "EventYear",
       "extracted" : true,
       "target" : "232"
     }
   }, {
     "data" : {
-      "id" : "277",
-      "source" : "271",
-      "label" : "preventive_measure",
+      "id" : "400",
+      "source" : "393",
+      "label" : "Quantity",
       "extracted" : true,
-      "target" : "274"
+      "target" : "397"
+    }
+  }, {
+    "data" : {
+      "id" : "338",
+      "source" : "332",
+      "label" : "influenced",
+      "extracted" : true,
+      "target" : "335"
+    }
+  }, {
+    "data" : {
+      "id" : "339",
+      "source" : "324",
+      "label" : "currently_considered",
+      "extracted" : true,
+      "target" : "92"
+    }
+  }, {
+    "data" : {
+      "id" : "340",
+      "source" : "324",
+      "label" : "related_to",
+      "extracted" : true,
+      "target" : "88"
+    }
+  }, {
+    "data" : {
+      "id" : "404",
+      "source" : "128",
+      "label" : "effect",
+      "extracted" : true,
+      "target" : "401"
     }
   }, {
     "data" : {
       "id" : "341",
-      "source" : "108",
-      "label" : "year",
+      "source" : "140",
+      "label" : "works_for",
       "extracted" : true,
-      "target" : "196"
+      "target" : "236"
     }
   }, {
     "data" : {
       "id" : "342",
-      "source" : "64",
-      "label" : "affects",
+      "source" : "0",
+      "label" : "works_for",
       "extracted" : true,
-      "target" : "24"
+      "target" : "236"
     }
   }, {
     "data" : {
       "id" : "343",
-      "source" : "64",
+      "source" : "248",
+      "label" : "works_for",
+      "extracted" : true,
+      "target" : "236"
+    }
+  }, {
+    "data" : {
+      "id" : "344",
+      "source" : "200",
+      "label" : "effect",
+      "extracted" : true,
+      "target" : "292"
+    }
+  }, {
+    "data" : {
+      "id" : "408",
+      "source" : "128",
+      "label" : "relation",
+      "extracted" : true,
+      "target" : "405"
+    }
+  }, {
+    "data" : {
+      "id" : "345",
+      "source" : "200",
+      "label" : "effect",
+      "extracted" : true,
+      "target" : "328"
+    }
+  }, {
+    "data" : {
+      "id" : "409",
+      "source" : "16",
+      "label" : "location_relation",
+      "extracted" : true,
+      "target" : "160"
+    }
+  }, {
+    "data" : {
+      "id" : "410",
+      "source" : "76",
+      "label" : "traveled_to",
+      "extracted" : true,
+      "target" : "208"
+    }
+  }, {
+    "data" : {
+      "id" : "414",
+      "source" : "411",
+      "label" : "travelled_by",
+      "extracted" : true,
+      "target" : "40"
+    }
+  }, {
+    "data" : {
+      "id" : "415",
+      "source" : "20",
+      "label" : "personWorkedBy",
+      "extracted" : true,
+      "target" : "256"
+    }
+  }, {
+    "data" : {
+      "id" : "352",
+      "source" : "346",
+      "label" : "timePlace",
+      "extracted" : true,
+      "target" : "349"
+    }
+  }, {
+    "data" : {
+      "id" : "416",
+      "source" : "256",
+      "label" : "personWorkedBy",
+      "extracted" : true,
+      "target" : "20"
+    }
+  }, {
+    "data" : {
+      "id" : "353",
+      "source" : "349",
       "label" : "eventYear",
       "extracted" : true,
-      "target" : "196"
+      "target" : "232"
     }
   }, {
     "data" : {
-      "id" : "281",
-      "source" : "271",
-      "label" : "preventive_measure",
+      "id" : "417",
+      "source" : "256",
+      "label" : "effectOf",
       "extracted" : true,
-      "target" : "278"
+      "target" : "397"
     }
   }, {
     "data" : {
-      "id" : "285",
-      "source" : "271",
-      "label" : "preventive_measure",
+      "id" : "418",
+      "source" : "256",
+      "label" : "causedBy",
       "extracted" : true,
-      "target" : "282"
+      "target" : "116"
     }
   }, {
     "data" : {
-      "id" : "286",
-      "source" : "56",
-      "label" : "same_name",
+      "id" : "357",
+      "source" : "354",
+      "label" : "affectedPopulation",
       "extracted" : true,
-      "target" : "96"
+      "target" : "296"
     }
   }, {
     "data" : {
-      "id" : "350",
-      "source" : "344",
-      "label" : "deceased",
+      "id" : "361",
+      "source" : "358",
+      "label" : "affectedPopulation",
       "extracted" : true,
-      "target" : "347"
+      "target" : "240"
     }
   }, {
     "data" : {
-      "id" : "287",
-      "source" : "144",
-      "label" : "same_name",
-      "extracted" : true,
-      "target" : "224"
-    }
-  }, {
-    "data" : {
-      "id" : "351",
-      "source" : "104",
-      "label" : "year",
-      "extracted" : true,
-      "target" : "148"
-    }
-  }, {
-    "data" : {
-      "id" : "288",
-      "source" : "96",
-      "label" : "same_name",
+      "id" : "362",
+      "source" : "52",
+      "label" : "effect",
       "extracted" : true,
       "target" : "172"
     }
   }, {
     "data" : {
-      "id" : "289",
-      "source" : "160",
-      "label" : "same_name",
+      "id" : "369",
+      "source" : "363",
+      "label" : "pathogenicityType",
       "extracted" : true,
-      "target" : "56"
+      "target" : "366"
     }
   }, {
     "data" : {
-      "id" : "355",
-      "source" : "60",
-      "label" : "location",
+      "id" : "370",
+      "source" : "264",
+      "label" : "null",
       "extracted" : true,
-      "target" : "352"
+      "target" : "240"
     }
   }, {
     "data" : {
-      "id" : "296",
-      "source" : "290",
-      "label" : "influencePopulation",
+      "id" : "371",
+      "source" : "296",
+      "label" : "null",
       "extracted" : true,
-      "target" : "293"
+      "target" : "240"
     }
   }, {
     "data" : {
-      "id" : "300",
-      "source" : "297",
-      "label" : "person",
+      "id" : "375",
+      "source" : "372",
+      "label" : "null",
       "extracted" : true,
-      "target" : "168"
+      "target" : "240"
     }
   }, {
     "data" : {
-      "id" : "304",
-      "source" : "301",
-      "label" : "person",
+      "id" : "376",
+      "source" : "176",
+      "label" : "Location",
       "extracted" : true,
-      "target" : "168"
+      "target" : "184"
     }
   }, {
     "data" : {
-      "id" : "308",
-      "source" : "156",
-      "label" : "affectedPopulation",
+      "id" : "377",
+      "source" : "176",
+      "label" : "Location",
       "extracted" : true,
-      "target" : "305"
+      "target" : "244"
     }
   }, {
     "data" : {
-      "id" : "312",
-      "source" : "156",
-      "label" : "affectedPopulation",
+      "id" : "378",
+      "source" : "176",
+      "label" : "Event",
       "extracted" : true,
-      "target" : "309"
-    }
-  }, {
-    "data" : {
-      "id" : "316",
-      "source" : "236",
-      "label" : "causedBy",
-      "extracted" : true,
-      "target" : "313"
-    }
-  }, {
-    "data" : {
-      "id" : "317",
-      "source" : "116",
-      "label" : "affectedPopulation",
-      "extracted" : true,
-      "target" : "136"
-    }
-  }, {
-    "data" : {
-      "id" : "318",
-      "source" : "12",
-      "label" : "affectedPopulation",
-      "extracted" : true,
-      "target" : "136"
+      "target" : "60"
     }
   } ]
 }

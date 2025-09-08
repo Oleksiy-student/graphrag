@@ -6,7 +6,8 @@ import java.util.*;
 import com.fasterxml.jackson.databind.*;
 
 /**
- * Simple Supabase client for vector search
+ * HTTP client for Supabase REST API operations.
+ * Encapsulates REST API communication with proper error handling.
  */
 public class SupabaseClient {
   private static final ObjectMapper MAPPER = new ObjectMapper();
@@ -39,8 +40,8 @@ public class SupabaseClient {
   }
 
   /**
-   * Perform a similarity search on the Supabase Vector table
-   */
+     * Perform vector similarity search via Supabase RPC function.
+     */
   public List<SupabaseVectorRecord> similaritySearch(float[] embedding, int k) throws Exception {
     String body = MAPPER.writeValueAsString(Map.of(
       "query_embedding", embedding,
@@ -99,4 +100,4 @@ public class SupabaseClient {
       System.err.println("Failed to insert chunk: " + response.body());
     }
   }
-  }
+}

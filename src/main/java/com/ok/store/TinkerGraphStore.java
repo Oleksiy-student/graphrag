@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.*;
 import java.util.*;
 
+// Concrete Strategy implementation using Apache TinkerPop framework
 public class TinkerGraphStore implements GraphStore {
   private final TinkerGraph graph;
   private static final ObjectMapper MAPPER = new ObjectMapper();
@@ -71,6 +72,7 @@ public class TinkerGraphStore implements GraphStore {
     return out;
   }
 
+  // Graph traversal operations using iterator pattern
   @Override
   public List<Vertex> chunksMentioning(Vertex entity) {
     List<Vertex> out = new ArrayList<>();
@@ -147,6 +149,7 @@ public class TinkerGraphStore implements GraphStore {
             new TypeReference<Map<String, List<Double>>>() {}
     );
 
+    // Restore embeddings to vertices
     for (Map.Entry<String, List<Double>> e : data.entrySet()) {
       String vid = e.getKey();
       List<Double> vals = e.getValue();
@@ -167,6 +170,7 @@ public class TinkerGraphStore implements GraphStore {
     return graph;
   }
 
+  // JSON export with Cytoscape.js format generation
   public void exportCytoscapeJson(String filePath) throws IOException {
     List<Map<String, Object>> elements = new ArrayList<>();
 

@@ -21,6 +21,7 @@ public class Qwen3EmbeddingModel implements EmbeddingModel {
   private static final String OLLAMA_URL;
   private static final String MODEL;
 
+  // Static initialization block for configuration loading
   static {
         Properties props = new Properties();
         String url = "http://localhost:11434/api/generate"; // fallback default
@@ -39,7 +40,7 @@ public class Qwen3EmbeddingModel implements EmbeddingModel {
   @Override
   public float[] embed(String text) {
     try {
-      // Build JSON request
+      // Build JSON request for Ollama embedding API
       ObjectNode requestJson = MAPPER.createObjectNode();
       requestJson.put("model", MODEL);
       requestJson.put("input", text);
@@ -56,7 +57,7 @@ public class Qwen3EmbeddingModel implements EmbeddingModel {
         new TypeReference<Map<String,Object>>() {}
       );
 
-      // Extract embeddings safely
+      // Extract embedding vector from nested response structure
       Object embeddingsObj = respMap.get("embeddings");
       if (!(embeddingsObj instanceof List<?> embsList) || embsList.isEmpty()) {
         System.out.println("Embedding not found in response: " + response.body());
@@ -69,6 +70,7 @@ public class Qwen3EmbeddingModel implements EmbeddingModel {
         return new float[0];
       }
 
+      // Convert Number list to float array
       float[] vec = new float[firstList.size()];
       for (int i = 0; i < firstList.size(); i++) {
         Number n = (Number) firstList.get(i);

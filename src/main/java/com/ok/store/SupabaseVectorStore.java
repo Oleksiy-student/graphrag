@@ -5,6 +5,9 @@ import com.ok.embeddings.EmbeddingModel;
 import java.sql.*;
 import java.util.*;
 
+/**
+ * PostgreSQL/Supabase integration with pgvector extension.
+ */
 public class SupabaseVectorStore {
   private final Connection conn;
   private final ObjectMapper mapper = new ObjectMapper();
@@ -13,6 +16,10 @@ public class SupabaseVectorStore {
     this.conn = DriverManager.getConnection(url, user, password);
   }
 
+  /**
+     * Store document chunk with vector embedding in PostgreSQL.
+     * Uses pgvector extension for similarity search capabilities.
+     */
   public void saveChunk(String docId, String text, Map<String, Object> metadata, float[] embedding) throws SQLException {
     // Convert float[] to Postgres array string for pgvector
     String vectorLiteral = arrayToPgVector(embedding);
@@ -29,6 +36,9 @@ public class SupabaseVectorStore {
     }
   }
 
+  /**
+     * Perform vector similarity search using pgvector's cosine distance operator.
+     */
   public List<Map<String, Object>> query(String query, EmbeddingModel model, int k) throws SQLException {
     float[] qEmb = model.embed(query);
     String vectorLiteral = arrayToPgVector(qEmb);
@@ -62,6 +72,9 @@ public class SupabaseVectorStore {
     }
   }
 
+  /**
+     * Convert float array to PostgreSQL vector literal format.
+     */
   private String arrayToPgVector(float[] arr) {
     StringBuilder sb = new StringBuilder("[");
     for (int i = 0; i < arr.length; i++) {

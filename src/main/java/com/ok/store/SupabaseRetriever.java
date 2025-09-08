@@ -8,6 +8,7 @@ import java.util.logging.Logger;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.type.TypeReference;
 
+// Database abstraction layer for Supabase vector operations
 public class SupabaseRetriever {
 
   private static final Logger LOGGER = Logger.getLogger(SupabaseRetriever.class.getName());
@@ -19,6 +20,7 @@ public class SupabaseRetriever {
   private final EmbeddingModel model;
   private final HttpClient client;
 
+  // Value object for search results with immutable properties
   public static class Hit {
     public final String id;
     public final String chunkIndex;
@@ -43,9 +45,10 @@ public class SupabaseRetriever {
     this.client = HttpClient.newHttpClient();
   }
 
+  // Vector similarity search with HTTP communication
   public List<Hit> retrieve(String query, int k) {
     try {
-      // Embed the query
+      // Convert query to vector representation
       float[] queryEmb = model.embed(query);
       List<Double> queryVector = new ArrayList<>(queryEmb.length);
       for (float f : queryEmb) queryVector.add((double) f);
@@ -58,7 +61,7 @@ public class SupabaseRetriever {
 
       String jsonBody = MAPPER.writeValueAsString(payload);
 
-      // Call the generic vector_search RPC
+      // Call the generic vector_search remote procedure call
       HttpRequest request = HttpRequest.newBuilder()
           .uri(URI.create(url + "/rest/v1/rpc/vector_search"))
           .header("apikey", apiKey)
@@ -67,8 +70,8 @@ public class SupabaseRetriever {
           .POST(HttpRequest.BodyPublishers.ofString(jsonBody))
           .build();
 
+      // Process response and transform data
       HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-
       if (response.statusCode() >= 200 && response.statusCode() < 300) {
         List<Map<String, Object>> results = MAPPER.readValue(response.body(), new TypeReference<>() {});
         List<Hit> hits = new ArrayList<>();

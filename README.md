@@ -122,7 +122,7 @@ Fetches OLLAMA_URL and OLLAMA_MODEL from config.properties automatically.
 ---
 
 ## Version History
-- **v1.67** – Implemented Entity extraction via **Deepseek-r1** and improved Grap Building.
+- **v1.67** – Implemented Entity extraction via **Deepseek-r1** and improved Graph Building.
 - **v1.66** – Implemented graph visualization via **Cytoscape.js**.
 - **v1.65** – Improved graph generation, implemented wikidata relationships.
 - **v1.6** – Added **Deepseek-r1** via Ollama for processing the retrieved results and implemented Mockito-based tests for Workflow1 and Workflow2 to enable fully mocked, offline testing.

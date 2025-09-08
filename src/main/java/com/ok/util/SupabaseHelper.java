@@ -10,13 +10,19 @@ import java.io.InputStream;
 import java.util.*;
 import java.util.logging.Logger;
 
+/**
+ * Facade pattern implementation providing simplified interface to Supabase operations.
+ * Encapsulates complex configuration loading and data transformation logic.
+ */
 public class SupabaseHelper {
   private static final Logger LOGGER = Logger.getLogger(SupabaseHelper.class.getName());
 
+
+  // Value object (immutable data class) for Supabase configuration.
   public static class Config {
-    public final String url;
-    public final String apiKey;
-    public final String table;
+    private final String url;
+    private final String apiKey;
+    private final String table;
 
     public Config(String url, String apiKey, String table) {
       this.url = url;

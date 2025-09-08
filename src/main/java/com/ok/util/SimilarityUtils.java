@@ -1,5 +1,9 @@
 package com.ok.util;
 
+/**
+ * Optimized cosine similarity calculation with error handling.
+ * Uses mathematical optimization for performance-critical operations.
+ */
 public class SimilarityUtils {
   /** Compute cosine similarity between two float vectors */
     public static double cosine(float[] v1, float[] v2) {

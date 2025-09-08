@@ -10,33 +10,36 @@ import java.net.http.HttpClient;
 import java.util.List;
 import java.util.logging.Logger;
 
+/**
+ * Alternative workflow strategy for processing with cached data.
+ * Demonstrates Strategy pattern variation with different processing approach.
+ */
 public class Workflow2 {
   private static final Logger LOGGER = Logger.getLogger(Workflow2.class.getName());
 
   public static void run(String query) {
     try {
-      // Load Supabase config
+      // Dependency injection: External configuration
       SupabaseHelper.Config cfg = SupabaseHelper.loadConfig();
       EmbeddingModel model = new Qwen3EmbeddingModel();
 
-      // Load existing graph and embeddings
+      // Template method: Load existing data instead of processing
       TinkerGraphStore graphStore = new TinkerGraphStore();
       try {
         graphStore.loadGraph("graph_document.graphml");
-        graphStore.loadEmbeddings("graph_embeddings.json");
-        LOGGER.info("Loaded existing graph and embeddings.");
+        LOGGER.info("Loaded existing graph.");
       } catch (IOException e) {
-        LOGGER.severe("Failed to load graph or embeddings: " + e.getMessage());
+        LOGGER.severe("Failed to load graph: " + e.getMessage());
         return;
       }
 
-      // Retrieve relevant chunks from Supabase
+      // Same retrieval strategy as Workflow1: Retrieve semantically similar chunks for the query
       List<SupabaseRetriever.Hit> hits = SupabaseHelper.retrieveHits(cfg, model, query, 5);
       if (hits.isEmpty()) {
         LOGGER.warning("No relevant hits retrieved from Supabase.");
       }
 
-      // Compose answer using Deepseek-R1
+      // Factory pattern: Create answer composer
       String ollamaUrl = Config.get("OLLAMA_URL");
       String ollamaModel = Config.get("OLLAMA_MODEL");
 
